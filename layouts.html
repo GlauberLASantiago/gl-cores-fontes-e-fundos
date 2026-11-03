@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gl Cores Fontes e Fundos - Layouts Web Completos</title>
+    <meta name="description" content="Catálogo interativo de layouts web completos (landing pages, dashboards, LMS, artigos, galerias, e-commerce e mobile) com mini-preview vivo, simulador desktop/mobile, prompt IA para vibe coding e boilerplate HTML/CSS.">
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Script de Inicialização de Tema (Modo Diurno / Noturno sem FOUC) -->
+    <script>
+        (function() {
+            const saved = localStorage.getItem('gl_theme') || 'dark';
+            if (saved === 'light') {
+                document.documentElement.setAttribute('data-theme', 'light');
+                document.documentElement.classList.add('light');
+                document.documentElement.classList.remove('dark');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                document.documentElement.classList.add('dark');
+                document.documentElement.classList.remove('light');
+            }
+        })();
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-dark: #090d16;
+            --bg-card: rgba(23, 32, 54, 0.72);
+            --bg-card-2: rgba(255, 255, 255, 0.04);
+            --border-color: rgba(255, 255, 255, 0.09);
+            --primary: #38bdf8;
+            --primary-glow: rgba(56, 189, 248, 0.3);
+            --accent-purple: #a855f7;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --font-title: 'Instrument Serif', serif;
+            --font-body: 'Inter', sans-serif;
+            --radius-sm: 8px;
+            --radius-md: 14px;
+            --radius-lg: 20px;
+        }
+
+        [data-theme="light"] {
+            --bg-card: rgba(255, 255, 255, 0.92);
+            --bg-card-2: rgba(15, 23, 42, 0.04);
+            --border-color: rgba(0, 0, 0, 0.09);
+            --primary: #0284c7;
+            --primary-glow: rgba(2, 132, 199, 0.2);
+            --text-main: #0f172a;
+            --text-muted: #475569;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--text-main);
+            min-height: 100vh;
+            line-height: 1.5;
+            background:
+                linear-gradient(rgba(9, 13, 22, 0.86), rgba(9, 13, 22, 0.93)),
+                url('abstrato/05_realista_gotas_de_agua_vidro_bokeh.png') center / cover no-repeat fixed,
+                var(--bg-dark);
+        }
+
+        [data-theme="light"] body {
+            background:
+                linear-gradient(rgba(248, 250, 252, 0.90), rgba(241, 245, 249, 0.95)),
+                url('abstrato/05_realista_gotas_de_agua_vidro_bokeh.png') center / cover no-repeat fixed;
+        }
+
+        h1, h2, h3 { font-family: var(--font-title); font-weight: 400; letter-spacing: 0.2px; }
+        button, input, select { font-family: var(--font-body); }
+
+        /* ============================================================
+           NAVBAR UNIFICADA (4 FUNCIONALIDADES) & HEADER MODERNO
+           ============================================================ */
+        .app-header {
+            border-bottom: 1px solid var(--border-color);
+            background: rgba(9, 13, 22, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 0.85rem 1.5rem;
+            transition: background 0.3s ease, border-color 0.3s ease;
+        }
+        [data-theme="light"] .app-header { background: rgba(255, 255, 255, 0.9); }
+
+        .app-header-inner {
+            max-width: 1360px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.25rem;
+            flex-wrap: wrap;
+        }
+
+        .app-brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+
+        .app-brand-logo {
+            width: 44px; height: 44px;
+            background: linear-gradient(135deg, var(--primary), var(--accent-purple));
+            border-radius: var(--radius-sm);
+            display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 0 20px var(--primary-glow);
+            flex-shrink: 0;
+        }
+
+        .app-brand-info { display: flex; flex-direction: column; }
+
+        .app-brand-title {
+            font-family: var(--font-title);
+            font-size: 1.65rem;
+            font-weight: 700;
+            letter-spacing: 0.2px;
+            background: linear-gradient(135deg, #ffffff 40%, var(--primary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1.15;
+        }
+        [data-theme="light"] .app-brand-title {
+            background: linear-gradient(135deg, #0f172a 40%, #0284c7);
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+
+        .app-brand-tagline { font-size: 0.8rem; color: var(--text-muted); }
+
+        .app-nav-tabs {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 4px;
+            border-radius: 999px;
+            border: 1px solid var(--border-color);
+            gap: 4px;
+            flex-wrap: wrap;
+        }
+        [data-theme="light"] .app-nav-tabs { background: rgba(0, 0, 0, 0.05); }
+
+        .app-nav-tab {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 0.5rem 1.15rem;
+            border-radius: 999px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: var(--text-muted);
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .app-nav-tab:hover { color: var(--text-main); background: rgba(255, 255, 255, 0.08); }
+        [data-theme="light"] .app-nav-tab:hover { background: rgba(0, 0, 0, 0.06); }
+
+        .app-nav-tab.active {
+            background: linear-gradient(135deg, #0ea5e9, #6366f1);
+            color: #ffffff !important;
+            box-shadow: 0 2px 12px rgba(14, 165, 233, 0.4);
+        }
+
+        .app-header-actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+
+        .theme-toggle-btn {
+            display: inline-flex; align-items: center; gap: 8px;
+            background: rgba(255, 255, 255, 0.07);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 1rem;
+            border-radius: 999px;
+            font-size: 0.86rem;
+            font-weight: 600;
+            color: var(--text-main);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        [data-theme="light"] .theme-toggle-btn { background: rgba(0, 0, 0, 0.05); }
+        .theme-toggle-btn:hover { border-color: var(--primary); transform: translateY(-1px); }
+
+        .stats-badge {
+            display: flex; align-items: center; gap: 8px;
+            background: var(--bg-card-2);
+            border: 1px solid var(--border-color);
+            padding: 0.45rem 0.9rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        .stats-badge strong { color: var(--primary); }
+
+        /* ============================================================
+           CONTEÚDO PRINCIPAL
+           ============================================================ */
+        .container { max-width: 1360px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+        .page-hero {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: 2rem;
+            align-items: end;
+            padding: 1.5rem 0 2rem;
+        }
+        .eyebrow {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--primary);
+            margin-bottom: 0.6rem;
+        }
+        .page-hero h1 { font-size: clamp(2.6rem, 5vw, 4.2rem); line-height: 1.02; }
+        .page-hero h1 em { font-style: italic; color: var(--primary); }
+        .page-hero p { color: var(--text-muted); font-size: 1.05rem; margin-top: 0.9rem; max-width: 62ch; }
+
+        .quartet {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px;
+        }
+        .quartet a, .quartet div {
+            display: grid; justify-items: center; gap: 4px;
+            padding: 0.9rem 0.5rem;
+            border-radius: var(--radius-md);
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            text-decoration: none;
+            color: var(--text-main);
+            font-size: 0.78rem;
+            font-weight: 600;
+            text-align: center;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .quartet a:hover { border-color: var(--primary); transform: translateY(-2px); }
+        .quartet .q-on { border-color: var(--primary); box-shadow: 0 0 0 1px var(--primary) inset, 0 8px 24px -10px var(--primary-glow); }
+        .quartet span { font-size: 1.4rem; }
+        .quartet-plus { grid-column: 1 / -1; text-align: center; font-size: 0.8rem; color: var(--text-muted); }
+        .quartet-plus button {
+            margin-top: 6px; width: 100%;
+            background: linear-gradient(135deg, #0ea5e9, #6366f1); color: #fff; border: 0;
+            padding: 0.7rem 1rem; border-radius: 999px; font-weight: 700; cursor: pointer;
+            box-shadow: 0 6px 20px -6px rgba(14, 165, 233, 0.6);
+        }
+
+        /* Toolbar */
+        .toolbar {
+            position: sticky;
+            top: calc(var(--header-h, 76px) + 8px);
+            z-index: 50;
+            display: flex;
+            flex-direction: column;
+            gap: 0.9rem;
+            padding: 1rem 1.1rem;
+            margin-bottom: 1.5rem;
+            border-radius: var(--radius-lg);
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+        .search-wrapper { position: relative; max-width: 520px; }
+        .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); opacity: 0.7; }
+        .search-input {
+            width: 100%;
+            background: var(--bg-card-2);
+            border: 1px solid var(--border-color);
+            border-radius: 999px;
+            padding: 0.65rem 1rem 0.65rem 2.5rem;
+            color: var(--text-main);
+            font-size: 0.9rem;
+            outline: none;
+        }
+        .search-input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-glow); }
+        .cat-pills { display: flex; gap: 8px; flex-wrap: wrap; }
+        .cat-pill {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 0.45rem 0.95rem;
+            border-radius: 999px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-card-2);
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .cat-pill:hover { color: var(--text-main); border-color: var(--primary); }
+        .cat-pill.active { background: linear-gradient(135deg, #0ea5e9, #6366f1); color: #fff; border-color: transparent; }
+        .cat-pill .count { font-size: 0.72rem; opacity: 0.75; }
+
+        /* Seções de categoria */
+        .cat-section { margin-bottom: 3rem; }
+        .cat-section-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 1.1rem; flex-wrap: wrap; }
+        .cat-section-head h2 { font-size: 2rem; }
+        .cat-section-head span { color: var(--text-muted); font-size: 0.85rem; }
+
+        .layout-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr));
+            gap: 1.4rem;
+        }
+
+        /* Card de layout */
+        .lcard {
+            display: flex;
+            flex-direction: column;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+        }
+        .lcard:hover {
+            border-color: rgba(56, 189, 248, 0.45);
+            box-shadow: 0 16px 40px -16px var(--primary-glow);
+            transform: translateY(-3px);
+        }
+
+        .thumb {
+            position: relative;
+            display: block;
+            width: 100%;
+            aspect-ratio: 16 / 10;
+            border: 0;
+            padding: 0;
+            cursor: zoom-in;
+            overflow: hidden;
+            background: radial-gradient(ellipse at 50% 0, rgba(56, 189, 248, 0.16), transparent 70%), #05080f;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .thumb-frame { position: absolute; inset: 0; overflow: hidden; }
+        .thumb-frame iframe {
+            position: absolute; top: 0; left: 0;
+            width: 1280px; height: 800px;
+            border: 0;
+            transform-origin: 0 0;
+            pointer-events: none;
+            background: #0b1020;
+        }
+        .thumb-frame.mobile iframe {
+            width: 390px; height: 844px;
+            left: 50%;
+            top: 7%;
+            transform-origin: top center;
+            border-radius: 44px;
+            outline: 10px solid #0b0f19;
+            box-shadow: 0 0 0 11px rgba(255, 255, 255, 0.15), 0 30px 60px rgba(0, 0, 0, 0.6);
+        }
+        .thumb-loading {
+            position: absolute; inset: 0;
+            display: grid; place-items: center;
+            color: var(--text-muted); font-size: 0.8rem;
+        }
+        .thumb-hint {
+            position: absolute;
+            right: 12px; bottom: 12px;
+            padding: 6px 12px;
+            border-radius: 999px;
+            background: rgba(3, 7, 18, 0.78);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: #fff;
+            font-size: 0.76rem;
+            font-weight: 600;
+            opacity: 0;
+            transform: translateY(6px);
+            transition: all 0.25s;
+            backdrop-filter: blur(8px);
+        }
+        .thumb:hover .thumb-hint, .thumb:focus-visible .thumb-hint { opacity: 1; transform: none; }
+        .thumb-badge {
+            position: absolute; left: 12px; top: 12px;
+            padding: 4px 10px;
+            border-radius: 6px;
+            background: rgba(3, 7, 18, 0.72);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            color: #e2e8f0;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            backdrop-filter: blur(8px);
+        }
+
+        .lcard-body { display: flex; flex-direction: column; gap: 0.85rem; padding: 1.2rem 1.25rem 1.3rem; flex: 1; }
+        .lcard-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+        .cat-badge {
+            font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+            color: var(--primary);
+            padding: 3px 10px; border-radius: 999px;
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.25);
+        }
+        .lnum { font-size: 0.78rem; color: var(--text-muted); font-weight: 600; }
+        .lcard h3 { font-size: 1.6rem; line-height: 1.12; }
+        .summary { color: var(--text-muted); font-size: 0.9rem; }
+
+        .block h4 {
+            font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+            color: var(--text-muted); margin-bottom: 0.45rem;
+        }
+        .anatomy { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; }
+        .ab {
+            font-size: 0.76rem; font-weight: 600;
+            padding: 3px 9px; border-radius: 6px;
+            background: var(--bg-card-2);
+            border: 1px solid var(--border-color);
+        }
+        .plus { color: var(--primary); font-weight: 700; font-size: 0.8rem; }
+        .uses { display: flex; flex-wrap: wrap; gap: 6px; }
+        .use {
+            font-size: 0.76rem; font-weight: 600;
+            padding: 3px 10px; border-radius: 999px;
+            color: #34d399;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.28);
+        }
+        [data-theme="light"] .use { color: #047857; }
+
+        .combo-line {
+            display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px;
+            font-size: 0.78rem; color: var(--text-muted);
+            padding: 0.6rem 0.75rem;
+            border-radius: var(--radius-sm);
+            background: var(--bg-card-2);
+            border: 1px dashed var(--border-color);
+        }
+        .combo-line strong { color: var(--text-main); font-weight: 600; }
+        .dots { display: inline-flex; }
+        .dots i { width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--bg-dark); margin-left: -4px; }
+        .dots i:first-child { margin-left: 0; }
+
+        .lcard-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: auto; padding-top: 0.3rem; }
+
+        .btn-act {
+            display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+            padding: 0.62rem 0.8rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-card-2);
+            color: var(--text-main);
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .btn-act:hover { border-color: var(--primary); transform: translateY(-1px); }
+        .btn-act.primary { background: linear-gradient(135deg, #0ea5e9, #6366f1); border-color: transparent; color: #fff; }
+        .btn-act.primary:hover { filter: brightness(1.1); }
+        .btn-act.code { background: rgba(168, 85, 247, 0.14); border-color: rgba(168, 85, 247, 0.35); }
+        .btn-act.ghost { background: transparent; }
+
+        .empty-state { text-align: center; padding: 4rem 1rem; color: var(--text-muted); display: none; }
+        .empty-state h3 { font-size: 1.6rem; color: var(--text-main); margin-bottom: 0.4rem; }
+
+        /* ============================================================
+           CONSTRUTOR COMBINADO
+           ============================================================ */
+        .builder {
+            margin-top: 1rem;
+            padding: clamp(1.2rem, 3vw, 2.2rem);
+            border-radius: 26px;
+            background:
+                radial-gradient(ellipse at 0 0, rgba(14, 165, 233, 0.14), transparent 55%),
+                radial-gradient(ellipse at 100% 100%, rgba(168, 85, 247, 0.14), transparent 55%),
+                var(--bg-card);
+            border: 1px solid var(--border-color);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            scroll-margin-top: 90px;
+        }
+        .builder-head { max-width: 760px; margin-bottom: 1.5rem; }
+        .builder-head h2 { font-size: clamp(2rem, 4vw, 3rem); line-height: 1.05; }
+        .builder-head p { color: var(--text-muted); margin-top: 0.5rem; }
+        .formula { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 0.9rem; font-size: 0.85rem; font-weight: 600; }
+        .formula span { padding: 4px 12px; border-radius: 999px; background: var(--bg-card-2); border: 1px solid var(--border-color); }
+        .formula b { color: var(--primary); }
+
+        .builder-grid { display: grid; grid-template-columns: minmax(300px, 400px) 1fr; gap: 1.6rem; align-items: start; }
+        .builder-controls { display: grid; gap: 1rem; }
+        .ctrl { display: grid; gap: 0.45rem; }
+        .ctrl label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); }
+        .ctrl select {
+            width: 100%;
+            padding: 0.7rem 0.9rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-card-2);
+            color: var(--text-main);
+            font-size: 0.9rem;
+            outline: none;
+            cursor: pointer;
+        }
+        .ctrl select:focus { border-color: var(--primary); }
+        .ctrl select option { background: #0f172a; color: #f8fafc; }
+        [data-theme="light"] .ctrl select option { background: #fff; color: #0f172a; }
+        .ctrl-preview {
+            display: flex; align-items: center; gap: 10px;
+            min-height: 46px;
+            padding: 0.5rem 0.7rem;
+            border-radius: 12px;
+            background: var(--bg-card-2);
+            border: 1px solid var(--border-color);
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+        .bg-mini { width: 64px; height: 36px; border-radius: 8px; background: #111827 center / cover; border: 1px solid var(--border-color); flex-shrink: 0; }
+        .sw-row { display: flex; flex: 1; height: 28px; border-radius: 8px; overflow: hidden; }
+        .sw-row i { flex: 1; }
+        .font-sample strong { font-size: 1.3rem; color: var(--text-main); font-weight: 700; display: block; line-height: 1.1; }
+        .builder-row { display: flex; gap: 8px; flex-wrap: wrap; }
+        .builder-row .btn-act { flex: 1; }
+        .master-actions { display: grid; gap: 8px; padding-top: 0.6rem; border-top: 1px solid var(--border-color); }
+        .master-actions .btn-act { padding: 0.8rem 1rem; font-size: 0.9rem; }
+
+        .builder-preview { display: grid; gap: 0.9rem; }
+        .preview-shell {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.7);
+        }
+        .browser-bar {
+            display: flex; align-items: center; gap: 6px;
+            padding: 0.55rem 0.8rem;
+            background: rgba(3, 7, 18, 0.85);
+            font-size: 0.74rem; color: #94a3b8;
+        }
+        .browser-bar i { width: 10px; height: 10px; border-radius: 50%; background: #f43f5e; }
+        .browser-bar i:nth-child(2) { background: #f59e0b; }
+        .browser-bar i:nth-child(3) { background: #10b981; margin-right: 8px; }
+        .browser-bar span { flex: 1; padding: 3px 10px; border-radius: 6px; background: rgba(255, 255, 255, 0.06); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+        .preview-shell .thumb { cursor: zoom-in; border-bottom: 0; }
+        .prompt-details {
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            background: var(--bg-card-2);
+        }
+        .prompt-details summary { cursor: pointer; padding: 0.8rem 1rem; font-weight: 600; font-size: 0.88rem; }
+        .prompt-details pre {
+            max-height: 340px; overflow: auto;
+            padding: 0 1rem 1rem;
+            font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+            font-size: 0.76rem; line-height: 1.55;
+            white-space: pre-wrap; word-break: break-word;
+            color: var(--text-muted);
+        }
+
+        /* ============================================================
+           SIMULADOR (TELA CHEIA DESKTOP / TABLET / MOBILE)
+           ============================================================ */
+        .sim-backdrop {
+            position: fixed; inset: 0; z-index: 1000;
+            background: rgba(3, 7, 18, 0.9);
+            backdrop-filter: blur(12px);
+            display: flex; padding: 1rem;
+            opacity: 0; pointer-events: none;
+            transition: opacity 0.25s ease;
+        }
+        .sim-backdrop.open { opacity: 1; pointer-events: auto; }
+        .sim-window {
+            flex: 1;
+            display: flex; flex-direction: column;
+            background: #0b1120;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7);
+            color: #f8fafc;
+        }
+        .sim-head {
+            display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+            padding: 0.8rem 1.2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .sim-head h2 { font-size: 1.35rem; color: #fff; }
+        .sim-head p { font-size: 0.8rem; color: #94a3b8; }
+        .device-switch { display: inline-flex; gap: 4px; padding: 4px; border-radius: 999px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .device-switch button {
+            border: 0; background: transparent; color: #94a3b8;
+            padding: 0.45rem 0.9rem; border-radius: 999px;
+            font-size: 0.82rem; font-weight: 600; cursor: pointer;
+        }
+        .device-switch button.active { background: linear-gradient(135deg, #0ea5e9, #6366f1); color: #fff; }
+        .sim-close {
+            width: 38px; height: 38px; border-radius: 50%;
+            border: 0; background: rgba(255, 255, 255, 0.08); color: #fff;
+            font-size: 1.05rem; cursor: pointer;
+        }
+        .sim-close:hover { background: rgba(244, 63, 94, 0.7); }
+        .sim-stage {
+            position: relative;
+            flex: 1;
+            display: grid; place-items: center;
+            padding: 1.2rem;
+            overflow: hidden;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.06) 1px, transparent 1px) 0 0 / 22px 22px, #060a14;
+        }
+        .sim-device { position: relative; transition: width 0.35s ease, height 0.35s ease; }
+        .sim-device iframe {
+            position: absolute; top: 0; left: 0;
+            border: 0;
+            transform-origin: 0 0;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12), 0 30px 80px rgba(0, 0, 0, 0.6);
+        }
+        .sim-device.is-mobile iframe, .sim-device.is-tablet iframe {
+            border-radius: 36px;
+            box-shadow: 0 0 0 10px #111827, 0 0 0 11px rgba(255, 255, 255, 0.18), 0 30px 80px rgba(0, 0, 0, 0.6);
+        }
+        .sim-dim {
+            position: absolute; left: 50%; bottom: 8px; transform: translateX(-50%);
+            font-size: 0.72rem; color: #64748b; font-weight: 600;
+        }
+        .sim-foot {
+            display: flex; justify-content: space-between; align-items: center; gap: 0.8rem; flex-wrap: wrap;
+            padding: 0.8rem 1.2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .sim-foot .btn-act { color: #f8fafc; border-color: rgba(255, 255, 255, 0.12); background: rgba(255, 255, 255, 0.05); }
+        .sim-foot .btn-act.primary { background: linear-gradient(135deg, #0ea5e9, #6366f1); border-color: transparent; }
+        .sim-theme { font-size: 0.8rem; color: #94a3b8; }
+        .sim-theme strong { color: #e2e8f0; }
+        .sim-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+        /* Toast */
+        #toast {
+            visibility: hidden; opacity: 0;
+            position: fixed; left: 50%; bottom: 30px; transform: translateX(-50%);
+            z-index: 2000;
+            min-width: 280px;
+            display: flex; align-items: center; justify-content: center; gap: 10px;
+            padding: 14px 20px;
+            border-radius: 12px;
+            background: rgba(15, 23, 42, 0.96);
+            color: #fff;
+            border: 1px solid var(--primary);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px var(--primary-glow);
+            font-size: 0.95rem; font-weight: 600;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        #toast.show { visibility: visible; opacity: 1; bottom: 40px; }
+
+        /* Rodapé Unificado */
+        .app-footer {
+            border-top: 1px solid var(--border-color);
+            background: rgba(9, 13, 22, 0.8);
+            backdrop-filter: blur(12px);
+            padding: 2.2rem 1.5rem;
+            margin-top: 4rem;
+            text-align: center;
+            color: var(--text-muted);
+        }
+        [data-theme="light"] .app-footer { background: rgba(255, 255, 255, 0.88); }
+        .app-footer-inner { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 0.75rem; }
+        .footer-credit { font-size: 0.95rem; color: var(--text-main); }
+        .footer-credit strong { color: var(--primary); }
+        .footer-links { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; font-size: 0.88rem; }
+        .footer-link { color: var(--primary); text-decoration: none; font-weight: 500; }
+        .footer-link:hover { text-decoration: underline; }
+        .footer-sep { opacity: 0.4; }
+
+        :focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+
+        @media (max-width: 1020px) {
+            .page-hero { grid-template-columns: 1fr; }
+            .builder-grid { grid-template-columns: 1fr; }
+            .toolbar { top: 0; position: relative; }
+        }
+        @media (max-width: 640px) {
+            .app-nav-tab .tab-label { display: none; }
+            .app-nav-tab { padding: 0.5rem 0.85rem; }
+            .lcard-actions { grid-template-columns: 1fr; }
+            .device-switch button .lbl { display: none; }
+            .sim-backdrop { padding: 0; }
+            .sim-window { border-radius: 0; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            * { transition: none !important; animation: none !important; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Fixo Unificado -->
+    <header class="app-header">
+        <div class="app-header-inner">
+            <a href="index.html" class="app-brand" title="Gl Cores Fontes e Fundos - Início">
+                <div class="app-brand-logo">
+                    <img src="favicon.svg" alt="Gl Logo" style="width: 100%; height: 100%; border-radius: 8px;">
+                </div>
+                <div class="app-brand-info">
+                    <span class="app-brand-title">Gl Cores Fontes e Fundos</span>
+                    <span class="app-brand-tagline">Fundos, Paletas, Tipografia &amp; Layouts Web</span>
+                </div>
+            </a>
+
+            <!-- 4 Funcionalidades Selecionáveis -->
+            <nav class="app-nav-tabs" aria-label="Navegação do App">
+                <a href="index.html" class="app-nav-tab">
+                    <span class="tab-icon">🖼️</span>
+                    <span class="tab-label">Fundos Visuais</span>
+                </a>
+                <a href="paletas.html" class="app-nav-tab">
+                    <span class="tab-icon">🎨</span>
+                    <span class="tab-label">Paletas de Cores</span>
+                </a>
+                <a href="fontes.html" class="app-nav-tab">
+                    <span class="tab-icon">🔤</span>
+                    <span class="tab-label">Pares Tipográficos</span>
+                </a>
+                <a href="layouts.html" class="app-nav-tab active" aria-current="page">
+                    <span class="tab-icon">📐</span>
+                    <span class="tab-label">Layouts Web</span>
+                </a>
+            </nav>
+
+            <div class="app-header-actions">
+                <button id="themeToggleBtn" class="theme-toggle-btn" type="button" aria-label="Alternar modo diurno/noturno" title="Alternar Modo Claro / Escuro">
+                    <span class="theme-icon" id="themeIcon">☀️</span>
+                    <span class="theme-label" id="themeLabel">Modo Diurno</span>
+                </button>
+                <div class="stats-badge">
+                    <span>Total:</span> <strong id="totalCount">14</strong> <span>layouts</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero da página -->
+        <section class="page-hero">
+            <div>
+                <span class="eyebrow">📐 4ª ferramenta · Design de Interfaces</span>
+                <h1>Layouts Web <em>Completos</em></h1>
+                <p>Catálogo interativo de arquiteturas de páginas e aplicações web: navegação, hero, grids, painéis, cards, barras laterais, seções e rodapé. Cada layout traz mini-preview vivo, simulador Desktop &amp; Mobile, prompt detalhado para IA e boilerplate HTML/CSS pronto.</p>
+            </div>
+            <div class="quartet" aria-label="O quarteto do Design de Interfaces">
+                <a href="index.html"><span>🖼️</span>Fundo</a>
+                <a href="paletas.html"><span>🎨</span>Paleta</a>
+                <a href="fontes.html"><span>🔤</span>Fontes</a>
+                <div class="q-on"><span>📐</span>Layout</div>
+                <div class="quartet-plus">
+                    Combine os 4 elementos em um único Prompt Mestre
+                    <button type="button" id="goBuilder">🔗 Abrir Construtor Combinado</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Toolbar de busca e filtros -->
+        <div class="toolbar">
+            <div class="search-wrapper">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="searchInput" class="search-input" placeholder="Buscar por nome, bloco (sidebar, bento, hero...) ou uso (dashboard, curso...)" autocomplete="off" aria-label="Buscar layouts">
+            </div>
+            <div class="cat-pills" id="catPills" role="tablist" aria-label="Categorias"></div>
+        </div>
+
+        <!-- Catálogo -->
+        <div id="catalog"></div>
+        <div class="empty-state" id="emptyState">
+            <h3>Nenhum layout encontrado</h3>
+            <p>Tente outro termo de busca ou selecione “Todos”.</p>
+        </div>
+
+        <!-- Construtor Combinado -->
+        <section class="builder" id="builder">
+            <div class="builder-head">
+                <span class="eyebrow">🔗 Bônus · Construtor Combinado</span>
+                <h2>Combo Prompt: o quarteto em um só comando</h2>
+                <p>Escolha 1 Fundo + 1 Paleta + 1 Par de Fontes + 1 Layout. A prévia ao vivo aplica tudo na hora e o Prompt Mestre reúne os 4 elementos com tokens CSS prontos.</p>
+                <div class="formula"><span>🖼️ Fundo</span><b>+</b><span>🎨 Paleta</span><b>+</b><span>🔤 Fontes</span><b>+</b><span>📐 Layout</span><b>=</b><span>✨ Prompt Mestre</span></div>
+            </div>
+
+            <div class="builder-grid">
+                <div class="builder-controls">
+                    <div class="ctrl">
+                        <label for="cLayout">📐 Layout</label>
+                        <select id="cLayout"></select>
+                    </div>
+                    <div class="ctrl">
+                        <label for="cBg">🖼️ Fundo Visual</label>
+                        <select id="cBg"></select>
+                        <div class="ctrl-preview"><div class="bg-mini" id="cBgMini"></div><span id="cBgInfo"></span></div>
+                    </div>
+                    <div class="ctrl">
+                        <label for="cPalette">🎨 Paleta de Cores</label>
+                        <select id="cPalette"></select>
+                        <div class="ctrl-preview"><div class="sw-row" id="cSwatches"></div></div>
+                    </div>
+                    <div class="ctrl">
+                        <label for="cFont">🔤 Par Tipográfico</label>
+                        <select id="cFont"></select>
+                        <div class="ctrl-preview font-sample" id="cFontSample"></div>
+                    </div>
+                    <div class="builder-row">
+                        <button type="button" class="btn-act" id="cSuggest">✨ Sugestão do layout</button>
+                        <button type="button" class="btn-act" id="cRandom">🎲 Surpreenda-me</button>
+                    </div>
+                    <div class="master-actions">
+                        <button type="button" class="btn-act primary" id="cCopyMaster">📋 Copiar Prompt Mestre (4 elementos)</button>
+                        <button type="button" class="btn-act code" id="cCopyCode">💻 Copiar HTML/CSS com o tema aplicado</button>
+                        <button type="button" class="btn-act ghost" id="cOpenSim">🖥️ Abrir combinação no Simulador</button>
+                    </div>
+                </div>
+
+                <div class="builder-preview">
+                    <div class="preview-shell">
+                        <div class="browser-bar"><i></i><i></i><i></i><span id="cUrl">meu-projeto.app</span></div>
+                        <button type="button" class="thumb" id="cThumb" aria-label="Abrir combinação no simulador">
+                            <div class="thumb-frame" id="cFrame"><iframe id="cPreview" tabindex="-1" title="Prévia da combinação"></iframe></div>
+                            <span class="thumb-hint">⛶ Tela cheia / Simulador</span>
+                        </button>
+                    </div>
+                    <details class="prompt-details">
+                        <summary>👁️ Ver Prompt Mestre gerado</summary>
+                        <pre id="cPromptOut"></pre>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé Unificado com Créditos -->
+    <footer class="app-footer">
+        <div class="app-footer-inner">
+            <p class="footer-credit">
+                Desenvolvido pelo <strong>professor Dr. Glauber Santiago</strong> — <span>DAC/UFSCar</span>
+            </p>
+            <div class="footer-links">
+                <span class="footer-label">Apoio:</span>
+                <a href="https://grupohorizonte.ufscar.br/" target="_blank" rel="noopener noreferrer" class="footer-link">Grupo de Pesquisa Horizonte ↗</a>
+                <span class="footer-sep">•</span>
+                <a href="https://servidores.ufscar.br/glauber/" target="_blank" rel="noopener noreferrer" class="footer-link">🌐 Website do Docente ↗</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simulador em Tela Cheia -->
+    <div class="sim-backdrop" id="sim" role="dialog" aria-modal="true" aria-labelledby="simTitle">
+        <div class="sim-window">
+            <div class="sim-head">
+                <div>
+                    <h2 id="simTitle">Layout</h2>
+                    <p id="simSub">Simulador interativo</p>
+                </div>
+                <div class="device-switch" id="deviceSwitch">
+                    <button type="button" data-w="1440" data-h="900" data-kind="desktop">🖥️ <span class="lbl">Desktop</span></button>
+                    <button type="button" data-w="1280" data-h="800" data-kind="laptop">💻 <span class="lbl">Notebook</span></button>
+                    <button type="button" data-w="820" data-h="1180" data-kind="tablet">📟 <span class="lbl">Tablet</span></button>
+                    <button type="button" data-w="390" data-h="844" data-kind="mobile">📱 <span class="lbl">Mobile</span></button>
+                </div>
+                <button type="button" class="sim-close" id="simClose" title="Fechar (Esc)" aria-label="Fechar simulador">✕</button>
+            </div>
+            <div class="sim-stage" id="simStage">
+                <div class="sim-device" id="simDevice"><iframe id="simFrame" title="Simulador do layout"></iframe></div>
+                <span class="sim-dim" id="simDim"></span>
+            </div>
+            <div class="sim-foot">
+                <div class="sim-theme" id="simTheme"></div>
+                <div class="sim-actions">
+                    <button type="button" class="btn-act primary" id="simPrompt">📋 Copiar Prompt IA</button>
+                    <button type="button" class="btn-act" id="simCode">💻 Copiar HTML/CSS</button>
+                    <button type="button" class="btn-act" id="simNewTab">↗ Abrir em nova aba</button>
+                    <button type="button" class="btn-act" id="simToBuilder">🔗 Levar ao Construtor</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div id="toast" role="status" aria-live="polite"><span>📋</span><span id="toastMsg">Copiado!</span></div>
+
+    <script src="layouts-data.js" charset="utf-8"></script>
+    <script src="layouts-app.js" charset="utf-8"></script>
+</body>
+</html>
