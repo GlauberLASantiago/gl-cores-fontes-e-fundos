@@ -124,7 +124,7 @@
         <div class="lcard-top"><span class="cat-badge">${cat.icon} ${esc(cat.short)}</span><span class="lnum">#${n}</span></div>
         <h3>${esc(l.name)}</h3>
         <p class="summary">${esc(l.summary)}</p>
-        <div class="block"><h4>🧱 Anatomia e estrutura</h4><div class="anatomy">${anatomy}</div></div>
+        <div class="block"><h4>🧱 Zonas estruturais (elásticas)</h4><div class="anatomy">${anatomy}</div></div>
         <div class="block"><h4>🎯 Uso ideal</h4><div class="uses">${uses}</div></div>
         <div class="combo-line" title="Combo sugerido aplicado na prévia">💡 Combo sugerido:
             <span class="dots">${dots}</span><strong>${esc(t.palette.name)}</strong>·
@@ -339,7 +339,7 @@
         $('#cOpenSim').addEventListener('click', openBuilderSim);
         $('#cThumb').addEventListener('click', openBuilderSim);
 
-        applySuggestion('research-hub');
+        applySuggestion('split-6040');
     }
 
     function sendToBuilder(layout, theme) {

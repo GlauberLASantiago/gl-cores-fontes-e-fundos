@@ -10,21 +10,20 @@ Aplicação web moderna, responsiva e dinâmica composta pelo **quarteto essenci
 
 ## 🌟 Principais Recursos
 
-### 1. 📐 Catálogo de Layouts Web Completos (`layouts.html` — 14 Arquiteturas Web):
-- **O Quarteto Completo do Design de Interfaces:** 4ª aba no cabeçalho unificado com um catálogo interativo de estruturas completas de páginas e aplicações web (navegação, hero, grids, painéis, cards, barras laterais, seções e rodapé).
-- **Miniatura Visual Interativa (Wireframe / Mini-Preview Vivo em HTML/CSS):** Cada card conta com um iframe real e escalonado renderizando a arquitetura ao vivo com HTML5 semântico e CSS Grid/Flexbox modernos.
-- **Simulador Interativo Multi-Dispositivo (Desktop, Notebook, Tablet e Mobile):** Modal em tela cheia que permite inspecionar e interagir com o layout em resoluções reais (1440×900, 1280×800, 820×1180 e 390×844), abrir em nova aba ou enviar direto ao construtor.
-- **Anatomia e Estrutura Detalhada:** Mapeamento visual bloco a bloco da arquitetura (ex.: *Header Fixo Glassmorphism + Hero Split 60/40 + Card Preview Flutuante + Faixa de 4 Métricas + Grid de 3 Recursos + Rodapé*).
-- **Indicação de Uso Ideal:** Badges indicando projetos perfeitos para cada layout (Landing Page, Dashboard SaaS, LMS / Curso Online, Artigo Científico, E-commerce, PWA Mobile, etc.).
-- **📋 1-Clique "Copiar Prompt IA (Vibe Coding)":** Instrução ultra-estruturada com especificação de Grid, espaçamentos (gap/padding em clamp), hierarquia visual, comportamento mobile responsivo, interações de hover/foco, acessibilidade WCAG 2.2 AA e equivalência Tailwind CSS.
-- **💻 1-Clique "Copiar HTML/CSS (Boilerplate)":** Código-fonte limpo, autocontido e pronto para uso, orientado por variáveis CSS no `:root` (`--bg`, `--text`, `--primary`, `--accent`, `--on-primary`, etc.) e superfícies derivadas com `color-mix()`.
-- **🔗 Construtor Combinado (Combo Prompt — O Quarteto em 1 Comando):** Ferramenta integrada onde o usuário seleciona **1 Fundo + 1 Paleta + 1 Par de Fontes + 1 Layout**, visualiza a aplicação em tempo real e copia um **Prompt Mestre Completo** ou o boilerplate HTML/CSS já com o tema personalizado.
-- **Organização por 5 Categorias Estruturais:**
-  1. 🚀 **Landing Pages & Apresentação:** Split Screen Assimétrico (60/40), Hero Centralizado Cinematográfico + Glass Cards e Storytelling em Z-Pattern (Alternado).
-  2. 📊 **Dashboards, SaaS & Sistemas Web:** App Shell Clássico (Sidebar + Topbar + Canvas Grid), Bento Grid Modular (Estilo Apple / Linear) e Workspace de Painel Triplo (3-Pane Studio / IDE).
-  3. 🎓 **Educação, Cursos & Acadêmico (Ideal para Design Instrucional e UFSCar):** Ambiente de Aprendizagem / Curso Interativo (LMS), Artigo Científico & Leitura Longform (com Sumário Sticky e notas laterais) e Hub de Grupo de Pesquisa / Laboratório Acadêmico.
-  4. 🎨 **Portfólios, Galerias & Catálogos Criativos:** Galeria Imersiva com Filtros & Modal, Editorial Magazine / Jornal Digital (Grid Assimétrico com capitular) e Vitrine E-Commerce / Catálogo de Produtos com Drawer Lateral.
-  5. 📱 **Interfaces Mobile-First & Web Apps Compactos:** App Mobile com Bottom Navigation Bar (4 abas) e Wizard / Fluxo Passo a Passo (Multi-Step Form com validação inline).
+### 1. 📐 Catálogo de Layouts Web Adaptáveis (`layouts.html` — 14 Arquiteturas Espaciais Agnósticas de Conteúdo):
+- **O Quarteto Completo do Design de Interfaces:** 4ª aba no cabeçalho unificado com 14 arquiteturas espaciais universais (colunas, divisões, mosaicos, painéis e fluxos) que se adaptam a qualquer conteúdo.
+- **Regra Estrita de Respeito ao Conteúdo:** Todos os prompts instruem explicitamente a IA a organizar **apenas os textos, mídias e controles que já existem** no projeto — **sem inventar botões, menus, barras de busca, métricas, formulários ou seções fictícias** quando não fizerem sentido para o conteúdo.
+- **Miniatura Visual em Wireframe de Zonas (HTML/CSS Vivo):** Iframe real e escalonado exibindo as zonas estruturais e proporções (`60/40`, `50/50`, `2×2`, `65ch`, `100dvh`) estilizadas com a paleta e a tipografia, sem elementos falsos de app.
+- **Simulador Interativo Multi-Dispositivo (Desktop, Notebook, Tablet e Mobile):** Modal em tela cheia para inspecionar o comportamento elástico do layout em resoluções reais (1440×900, 1280×800, 820×1180 e 390×844).
+- **📋 1-Clique "Copiar Prompt IA (Vibe Coding)":** Especificação geométrica completa (CSS Grid/Flexbox, comportamento elástico para mais ou menos blocos, espaçamentos em `clamp()`, responsividade e equivalência Tailwind CSS).
+- **💻 1-Clique "Copiar HTML/CSS (Boilerplate)":** Esqueleto semântico limpo, elástico e orientado por variáveis CSS no `:root` (`--bg`, `--text`, `--primary`, `--accent`) e superfícies derivadas com `color-mix()`.
+- **🔗 Construtor Combinado (Combo Prompt — O Quarteto em 1 Comando):** Permite combinar **1 Fundo + 1 Paleta + 1 Par de Fontes + 1 Layout**, visualizar na hora e copiar o **Prompt Mestre Completo**.
+- **Organização por 5 Categorias Geométricas / Espaciais:**
+  1. ◧ **Divisões & Colunas (Splits & Eixos):** Eixo Único Centralizado (Foco Linear), Divisão Assimétrica 60/40 (Principal + Apoio) e Divisão Simétrica 50/50 (Lado a Lado).
+  2. ▦ **Grades & Mosaicos Elásticos (Grids Modulares):** Grade Fluida Auto-Adaptável (`auto-fit`), Mosaico Bento Assimétrico (Pesos Visuais) e Grade Editorial Multi-Colunas (Hierarquia Tipográfica).
+  3. ▤ **Painéis & Colunas de Apoio (Sidebars & Palcos):** Coluna Lateral Fixa + Área Principal (Sidebar + Main), Coluna de Leitura (`65ch`) + Margem Lateral Sticky e Workspace de 3 Zonas (Esquerda + Palco Central + Direita).
+  4. ↕ **Ritmos Verticais & Fluxos de Leitura:** Destaque Panorâmico + Blocos Modulares Abaixo, Fluxo Alternado em Zigue-Zague (Z-Pattern) e Container Central Focado (Palco Flutuante sobre o Fundo).
+  5. 📱 **Estruturas Compactas & Tela Única:** Pilha Compacta Mobile-First (Coluna 480px) e Canvas de Tela Única sem Rolagem (`100dvh`).
 
 ### 2. 🔤 Catálogo de 40 Pares Tipográficos (`fontes.html`):
 - **40 Combinações Harmoniosas:** Títulos e corpo calibrados cobrindo Tech & SaaS, Fintech & Apps, Editorial & Luxo, Criativo & Agência, Clássico & Acadêmico e Cyberpunk & Web3.
