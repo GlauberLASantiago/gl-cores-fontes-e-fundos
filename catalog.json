@@ -2,7 +2,7 @@
   "abstrato": {
     "name": "Abstrato",
     "icon": "🎨",
-    "count": 119,
+    "count": 126,
     "images": [
       {
         "name": "01_realista_prisma_refratando_arco_iris.png",
@@ -153,6 +153,26 @@
         "name": "30_realista_neon_tiras_acrilico_luz.png",
         "ext": "PNG",
         "path": "abstrato/30_realista_neon_tiras_acrilico_luz.png"
+      },
+      {
+        "name": "31_realista_cristal_bismuto_iridescente.png",
+        "ext": "PNG",
+        "path": "abstrato/31_realista_cristal_bismuto_iridescente.png"
+      },
+      {
+        "name": "32_realista_opala_fogo_reflexos_minerais.png",
+        "ext": "PNG",
+        "path": "abstrato/32_realista_opala_fogo_reflexos_minerais.png"
+      },
+      {
+        "name": "33_realista_aurora_fluida_acrilico_macro.png",
+        "ext": "PNG",
+        "path": "abstrato/33_realista_aurora_fluida_acrilico_macro.png"
+      },
+      {
+        "name": "34_realista_malaquita_verde_veios_minerais.png",
+        "ext": "PNG",
+        "path": "abstrato/34_realista_malaquita_verde_veios_minerais.png"
       },
       {
         "name": "01_ondas_seda_pastel.jpg",
@@ -598,13 +618,1270 @@
         "name": "z_svg_83_xadrez_surrealista_tabuleiro_esferas.svg",
         "ext": "SVG",
         "path": "abstrato/z_svg_83_xadrez_surrealista_tabuleiro_esferas.svg"
+      },
+      {
+        "name": "z_svg_84_prisma_dimensional_aurora_fluida.svg",
+        "ext": "SVG",
+        "path": "abstrato/z_svg_84_prisma_dimensional_aurora_fluida.svg"
+      },
+      {
+        "name": "z_svg_85_malha_quantica_ouro_e_obsidiana.svg",
+        "ext": "SVG",
+        "path": "abstrato/z_svg_85_malha_quantica_ouro_e_obsidiana.svg"
+      },
+      {
+        "name": "z_svg_86_espiral_cosmica_minimalista_azul.svg",
+        "ext": "SVG",
+        "path": "abstrato/z_svg_86_espiral_cosmica_minimalista_azul.svg"
+      }
+    ]
+  },
+  "arquitetura": {
+    "name": "Arquitetura & Interiores",
+    "icon": "🏛️",
+    "count": 40,
+    "images": [
+      {
+        "name": "01_realista_museu_minimalista_moderno.png",
+        "ext": "PNG",
+        "path": "arquitetura/01_realista_museu_minimalista_moderno.png"
+      },
+      {
+        "name": "02_realista_fachada_brutalista_concreto.png",
+        "ext": "PNG",
+        "path": "arquitetura/02_realista_fachada_brutalista_concreto.png"
+      },
+      {
+        "name": "03_realista_galeria_arte_iluminada.png",
+        "ext": "PNG",
+        "path": "arquitetura/03_realista_galeria_arte_iluminada.png"
+      },
+      {
+        "name": "04_realista_biblioteca_moderna_madeira.png",
+        "ext": "PNG",
+        "path": "arquitetura/04_realista_biblioteca_moderna_madeira.png"
+      },
+      {
+        "name": "05_realista_catedral_gotica_vitrais_luz.png",
+        "ext": "PNG",
+        "path": "arquitetura/05_realista_catedral_gotica_vitrais_luz.png"
+      },
+      {
+        "name": "06_realista_loft_industrial_tijolo_aparente.png",
+        "ext": "PNG",
+        "path": "arquitetura/06_realista_loft_industrial_tijolo_aparente.png"
+      },
+      {
+        "name": "07_realista_casa_moderna_vidro_floresta.png",
+        "ext": "PNG",
+        "path": "arquitetura/07_realista_casa_moderna_vidro_floresta.png"
+      },
+      {
+        "name": "08_realista_escadaria_helicoidal_arquitetura.png",
+        "ext": "PNG",
+        "path": "arquitetura/08_realista_escadaria_helicoidal_arquitetura.png"
+      },
+      {
+        "name": "09_realista_ponte_estaiada_iluminada_noite.png",
+        "ext": "PNG",
+        "path": "arquitetura/09_realista_ponte_estaiada_iluminada_noite.png"
+      },
+      {
+        "name": "10_realista_pavilhao_japones_tradicional.png",
+        "ext": "PNG",
+        "path": "arquitetura/10_realista_pavilhao_japones_tradicional.png"
+      },
+      {
+        "name": "11_realista_teatro_opera_contemporaneo.png",
+        "ext": "PNG",
+        "path": "arquitetura/11_realista_teatro_opera_contemporaneo.png"
+      },
+      {
+        "name": "12_realista_atrio_claraboia_geometrica.png",
+        "ext": "PNG",
+        "path": "arquitetura/12_realista_atrio_claraboia_geometrica.png"
+      },
+      {
+        "name": "13_realista_sala_minimalista_escandinava.png",
+        "ext": "PNG",
+        "path": "arquitetura/13_realista_sala_minimalista_escandinava.png"
+      },
+      {
+        "name": "14_realista_colunata_classica_marmore.png",
+        "ext": "PNG",
+        "path": "arquitetura/14_realista_colunata_classica_marmore.png"
+      },
+      {
+        "name": "15_realista_arranha_ceu_espelhado_futurista.png",
+        "ext": "PNG",
+        "path": "arquitetura/15_realista_arranha_ceu_espelhado_futurista.png"
+      },
+      {
+        "name": "16_realista_museu_guggenheim_curvas.png",
+        "ext": "PNG",
+        "path": "arquitetura/16_realista_museu_guggenheim_curvas.png"
+      },
+      {
+        "name": "17_realista_jardim_inverno_estufa_vidro.png",
+        "ext": "PNG",
+        "path": "arquitetura/17_realista_jardim_inverno_estufa_vidro.png"
+      },
+      {
+        "name": "18_realista_corredor_minimalista_luz_linear.png",
+        "ext": "PNG",
+        "path": "arquitetura/18_realista_corredor_minimalista_luz_linear.png"
+      },
+      {
+        "name": "16_luz_e_sombra_concreto_minimalista.png",
+        "ext": "PNG",
+        "path": "arquitetura/16_luz_e_sombra_concreto_minimalista.png"
+      },
+      {
+        "name": "17_perspectiva_atrio_vidro_azul.png",
+        "ext": "PNG",
+        "path": "arquitetura/17_perspectiva_atrio_vidro_azul.png"
+      },
+      {
+        "name": "18_atmosfera_galeria_contemporanea.png",
+        "ext": "PNG",
+        "path": "arquitetura/18_atmosfera_galeria_contemporanea.png"
+      },
+      {
+        "name": "19_reflexos_dourados_fachada_moderna.png",
+        "ext": "PNG",
+        "path": "arquitetura/19_reflexos_dourados_fachada_moderna.png"
+      },
+      {
+        "name": "20_horizonte_urbano_arquitetura_noturna.png",
+        "ext": "PNG",
+        "path": "arquitetura/20_horizonte_urbano_arquitetura_noturna.png"
+      },
+      {
+        "name": "21_textura_termica_madeira_e_pedra.png",
+        "ext": "PNG",
+        "path": "arquitetura/21_textura_termica_madeira_e_pedra.png"
+      },
+      {
+        "name": "22_claraboia_zenital_luz_difusa.png",
+        "ext": "PNG",
+        "path": "arquitetura/22_claraboia_zenital_luz_difusa.png"
+      },
+      {
+        "name": "23_brutalismo_suave_gradiente_arquitetonico.png",
+        "ext": "PNG",
+        "path": "arquitetura/23_brutalismo_suave_gradiente_arquitetonico.png"
+      },
+      {
+        "name": "24_pavilhao_cristal_reflexo_agua.png",
+        "ext": "PNG",
+        "path": "arquitetura/24_pavilhao_cristal_reflexo_agua.png"
+      },
+      {
+        "name": "25_ambiente_escandinavo_luz_natural.png",
+        "ext": "PNG",
+        "path": "arquitetura/25_ambiente_escandinavo_luz_natural.png"
+      },
+      {
+        "name": "z_svg_01_planta_arquitetonica_grid_azul.svg",
+        "ext": "SVG",
+        "path": "arquitetura/z_svg_01_planta_arquitetonica_grid_azul.svg"
+      },
+      {
+        "name": "z_svg_02_arcos_minimalistas_bauhaus.svg",
+        "ext": "SVG",
+        "path": "arquitetura/z_svg_02_arcos_minimalistas_bauhaus.svg"
+      },
+      {
+        "name": "z_svg_03_perspectiva_isometrica_edificios.svg",
+        "ext": "SVG",
+        "path": "arquitetura/z_svg_03_perspectiva_isometrica_edificios.svg"
+      },
+      {
+        "name": "z_svg_04_geometria_sagrada_catedral_ouro.svg",
+        "ext": "SVG",
+        "path": "arquitetura/z_svg_04_geometria_sagrada_catedral_ouro.svg"
+      },
+      {
+        "name": "z_svg_05_linhas_estruturais_ponte_moderna.svg",
+        "ext": "SVG",
+        "path": "arquitetura/z_svg_05_linhas_estruturais_ponte_moderna.svg"
+      },
+      {
+        "name": "z_svg_06_malha_espacial_domo_geodesico.svg",
+        "ext": "SVG",
+        "path": "arquitetura/z_svg_06_malha_espacial_domo_geodesico.svg"
+      },
+      {
+        "name": "z_svg_07_proporcao_aurea_fibonacci_arquitetura.svg",
+        "ext": "SVG",
+        "path": "arquitetura/z_svg_07_proporcao_aurea_fibonacci_arquitetura.svg"
+      },
+      {
+        "name": "z_svg_08_vitral_abstrato_contemporaneo.svg",
+        "ext": "SVG",
+        "path": "arquitetura/z_svg_08_vitral_abstrato_contemporaneo.svg"
+      },
+      {
+        "name": "z_svg_09_fachada_parametrica_ondas.svg",
+        "ext": "SVG",
+        "path": "arquitetura/z_svg_09_fachada_parametrica_ondas.svg"
+      },
+      {
+        "name": "z_svg_10_minimalismo_japones_shoji_grid.svg",
+        "ext": "SVG",
+        "path": "arquitetura/z_svg_10_minimalismo_japones_shoji_grid.svg"
+      },
+      {
+        "name": "z_svg_11_abobada_celeste_arquitetura_classica.svg",
+        "ext": "SVG",
+        "path": "arquitetura/z_svg_11_abobada_celeste_arquitetura_classica.svg"
+      },
+      {
+        "name": "z_svg_12_linhas_modernistas_niemeyer_curvas.svg",
+        "ext": "SVG",
+        "path": "arquitetura/z_svg_12_linhas_modernistas_niemeyer_curvas.svg"
+      }
+    ]
+  },
+  "espaco": {
+    "name": "Espaço & Astronomia",
+    "icon": "🌌",
+    "count": 40,
+    "images": [
+      {
+        "name": "01_realista_nebulosa_orion_colorida.png",
+        "ext": "PNG",
+        "path": "espaco/01_realista_nebulosa_orion_colorida.png"
+      },
+      {
+        "name": "02_realista_galaxia_espiral_andromeda.png",
+        "ext": "PNG",
+        "path": "espaco/02_realista_galaxia_espiral_andromeda.png"
+      },
+      {
+        "name": "03_realista_via_lactea_deserto_noturno.png",
+        "ext": "PNG",
+        "path": "espaco/03_realista_via_lactea_deserto_noturno.png"
+      },
+      {
+        "name": "04_realista_planeta_saturno_aneis_cassini.png",
+        "ext": "PNG",
+        "path": "espaco/04_realista_planeta_saturno_aneis_cassini.png"
+      },
+      {
+        "name": "05_realista_superficie_crateras_da_lua.png",
+        "ext": "PNG",
+        "path": "espaco/05_realista_superficie_crateras_da_lua.png"
+      },
+      {
+        "name": "06_realista_estacao_espacial_orbita_terra.png",
+        "ext": "PNG",
+        "path": "espaco/06_realista_estacao_espacial_orbita_terra.png"
+      },
+      {
+        "name": "07_realista_eclipse_solar_total_coroa.png",
+        "ext": "PNG",
+        "path": "espaco/07_realista_eclipse_solar_total_coroa.png"
+      },
+      {
+        "name": "08_realista_nebulosa_pilares_da_criacao.png",
+        "ext": "PNG",
+        "path": "espaco/08_realista_nebulosa_pilares_da_criacao.png"
+      },
+      {
+        "name": "09_realista_planeta_jupiter_tempestade.png",
+        "ext": "PNG",
+        "path": "espaco/09_realista_planeta_jupiter_tempestade.png"
+      },
+      {
+        "name": "10_realista_aurora_vista_do_espaco_terra.png",
+        "ext": "PNG",
+        "path": "espaco/10_realista_aurora_vista_do_espaco_terra.png"
+      },
+      {
+        "name": "11_realista_nebulosa_carina_cosmos.png",
+        "ext": "PNG",
+        "path": "espaco/11_realista_nebulosa_carina_cosmos.png"
+      },
+      {
+        "name": "12_realista_aglomerado_estelar_brilhante.png",
+        "ext": "PNG",
+        "path": "espaco/12_realista_aglomerado_estelar_brilhante.png"
+      },
+      {
+        "name": "13_realista_paisagem_planeta_marte_rover.png",
+        "ext": "PNG",
+        "path": "espaco/13_realista_paisagem_planeta_marte_rover.png"
+      },
+      {
+        "name": "14_realista_cometa_cauda_luminosa_ceu.png",
+        "ext": "PNG",
+        "path": "espaco/14_realista_cometa_cauda_luminosa_ceu.png"
+      },
+      {
+        "name": "15_realista_observatorio_astronomico_estrelas.png",
+        "ext": "PNG",
+        "path": "espaco/15_realista_observatorio_astronomico_estrelas.png"
+      },
+      {
+        "name": "16_realista_nebulosa_cabeça_de_cavalo.png",
+        "ext": "PNG",
+        "path": "espaco/16_realista_nebulosa_cabeça_de_cavalo.png"
+      },
+      {
+        "name": "17_realista_galaxia_sombrero_anel_poeira.png",
+        "ext": "PNG",
+        "path": "espaco/17_realista_galaxia_sombrero_anel_poeira.png"
+      },
+      {
+        "name": "18_realista_foguete_lancamento_noturno_espaco.png",
+        "ext": "PNG",
+        "path": "espaco/18_realista_foguete_lancamento_noturno_espaco.png"
+      },
+      {
+        "name": "16_horizonte_de_eventos_buraco_negro.png",
+        "ext": "PNG",
+        "path": "espaco/16_horizonte_de_eventos_buraco_negro.png"
+      },
+      {
+        "name": "17_poeira_cosmica_nebulosa_violeta.png",
+        "ext": "PNG",
+        "path": "espaco/17_poeira_cosmica_nebulosa_violeta.png"
+      },
+      {
+        "name": "18_aurora_orbital_planeta_exoplaneta.png",
+        "ext": "PNG",
+        "path": "espaco/18_aurora_orbital_planeta_exoplaneta.png"
+      },
+      {
+        "name": "19_supernova_explosao_estelar_luz.png",
+        "ext": "PNG",
+        "path": "espaco/19_supernova_explosao_estelar_luz.png"
+      },
+      {
+        "name": "20_campo_profundo_galaxias_distantes.png",
+        "ext": "PNG",
+        "path": "espaco/20_campo_profundo_galaxias_distantes.png"
+      },
+      {
+        "name": "21_atmosfera_orbital_azul_estratosfera.png",
+        "ext": "PNG",
+        "path": "espaco/21_atmosfera_orbital_azul_estratosfera.png"
+      },
+      {
+        "name": "22_pulsar_magnetico_ondas_cosmicas.png",
+        "ext": "PNG",
+        "path": "espaco/22_pulsar_magnetico_ondas_cosmicas.png"
+      },
+      {
+        "name": "23_crepusculo_marciano_horizonte_vermelho.png",
+        "ext": "PNG",
+        "path": "espaco/23_crepusculo_marciano_horizonte_vermelho.png"
+      },
+      {
+        "name": "24_bercario_estelar_gas_ionizado.png",
+        "ext": "PNG",
+        "path": "espaco/24_bercario_estelar_gas_ionizado.png"
+      },
+      {
+        "name": "25_eclipse_cosmico_coroa_dourada.png",
+        "ext": "PNG",
+        "path": "espaco/25_eclipse_cosmico_coroa_dourada.png"
+      },
+      {
+        "name": "z_svg_01_mapa_celeste_constelacoes_ouro.svg",
+        "ext": "SVG",
+        "path": "espaco/z_svg_01_mapa_celeste_constelacoes_ouro.svg"
+      },
+      {
+        "name": "z_svg_02_orbitas_planetarias_sistema_solar.svg",
+        "ext": "SVG",
+        "path": "espaco/z_svg_02_orbitas_planetarias_sistema_solar.svg"
+      },
+      {
+        "name": "z_svg_03_nebulosa_geometrica_deep_space.svg",
+        "ext": "SVG",
+        "path": "espaco/z_svg_03_nebulosa_geometrica_deep_space.svg"
+      },
+      {
+        "name": "z_svg_04_singularidade_gravitacional_malha.svg",
+        "ext": "SVG",
+        "path": "espaco/z_svg_04_singularidade_gravitacional_malha.svg"
+      },
+      {
+        "name": "z_svg_05_fases_da_lua_geometria_astral.svg",
+        "ext": "SVG",
+        "path": "espaco/z_svg_05_fases_da_lua_geometria_astral.svg"
+      },
+      {
+        "name": "z_svg_06_estacao_orbital_telemetria_sci_fi.svg",
+        "ext": "SVG",
+        "path": "espaco/z_svg_06_estacao_orbital_telemetria_sci_fi.svg"
+      },
+      {
+        "name": "z_svg_07_ondas_gravitacionais_cosmos.svg",
+        "ext": "SVG",
+        "path": "espaco/z_svg_07_ondas_gravitacionais_cosmos.svg"
+      },
+      {
+        "name": "z_svg_08_portal_interestelar_aneis_luz.svg",
+        "ext": "SVG",
+        "path": "espaco/z_svg_08_portal_interestelar_aneis_luz.svg"
+      },
+      {
+        "name": "z_svg_09_radar_astronomico_exoplanetas.svg",
+        "ext": "SVG",
+        "path": "espaco/z_svg_09_radar_astronomico_exoplanetas.svg"
+      },
+      {
+        "name": "z_svg_10_horizonte_lunar_estrelas_minimal.svg",
+        "ext": "SVG",
+        "path": "espaco/z_svg_10_horizonte_lunar_estrelas_minimal.svg"
+      },
+      {
+        "name": "z_svg_11_cinturao_de_asteroides_cosmos.svg",
+        "ext": "SVG",
+        "path": "espaco/z_svg_11_cinturao_de_asteroides_cosmos.svg"
+      },
+      {
+        "name": "z_svg_12_pulsar_feixe_magnetico_profundo.svg",
+        "ext": "SVG",
+        "path": "espaco/z_svg_12_pulsar_feixe_magnetico_profundo.svg"
+      }
+    ]
+  },
+  "gastronomia": {
+    "name": "Gastronomia & Cafeteria",
+    "icon": "☕",
+    "count": 40,
+    "images": [
+      {
+        "name": "01_realista_cafe_expresso_latte_art.png",
+        "ext": "PNG",
+        "path": "gastronomia/01_realista_cafe_expresso_latte_art.png"
+      },
+      {
+        "name": "02_realista_graos_de_cafe_torrados.png",
+        "ext": "PNG",
+        "path": "gastronomia/02_realista_graos_de_cafe_torrados.png"
+      },
+      {
+        "name": "03_realista_xicara_cappuccino_mesa_rustica.png",
+        "ext": "PNG",
+        "path": "gastronomia/03_realista_xicara_cappuccino_mesa_rustica.png"
+      },
+      {
+        "name": "04_realista_paes_artesanais_fermentacao.png",
+        "ext": "PNG",
+        "path": "gastronomia/04_realista_paes_artesanais_fermentacao.png"
+      },
+      {
+        "name": "05_realista_especiarias_coloridas_culinaria.png",
+        "ext": "PNG",
+        "path": "gastronomia/05_realista_especiarias_coloridas_culinaria.png"
+      },
+      {
+        "name": "06_realista_chocolate_amargo_gourmet.png",
+        "ext": "PNG",
+        "path": "gastronomia/06_realista_chocolate_amargo_gourmet.png"
+      },
+      {
+        "name": "07_realista_tacas_vinho_tinto_adega.png",
+        "ext": "PNG",
+        "path": "gastronomia/07_realista_tacas_vinho_tinto_adega.png"
+      },
+      {
+        "name": "08_realista_cha_matcha_japones_cerimonia.png",
+        "ext": "PNG",
+        "path": "gastronomia/08_realista_cha_matcha_japones_cerimonia.png"
+      },
+      {
+        "name": "09_realista_frutas_vermelhas_frescas_orvalho.png",
+        "ext": "PNG",
+        "path": "gastronomia/09_realista_frutas_vermelhas_frescas_orvalho.png"
+      },
+      {
+        "name": "10_realista_massa_artesanal_italiana_trigo.png",
+        "ext": "PNG",
+        "path": "gastronomia/10_realista_massa_artesanal_italiana_trigo.png"
+      },
+      {
+        "name": "11_realista_mel_dourado_favo_organico.png",
+        "ext": "PNG",
+        "path": "gastronomia/11_realista_mel_dourado_favo_organico.png"
+      },
+      {
+        "name": "12_realista_croissants_dourados_confeitaria.png",
+        "ext": "PNG",
+        "path": "gastronomia/12_realista_croissants_dourados_confeitaria.png"
+      },
+      {
+        "name": "13_realista_azeite_oliva_ervas_mediterraneas.png",
+        "ext": "PNG",
+        "path": "gastronomia/13_realista_azeite_oliva_ervas_mediterraneas.png"
+      },
+      {
+        "name": "14_realista_sushi_oriental_gastronomia.png",
+        "ext": "PNG",
+        "path": "gastronomia/14_realista_sushi_oriental_gastronomia.png"
+      },
+      {
+        "name": "15_realista_cafeteria_aconchegante_interior.png",
+        "ext": "PNG",
+        "path": "gastronomia/15_realista_cafeteria_aconchegante_interior.png"
+      },
+      {
+        "name": "16_realista_queijos_artesanais_tabua_rustica.png",
+        "ext": "PNG",
+        "path": "gastronomia/16_realista_queijos_artesanais_tabua_rustica.png"
+      },
+      {
+        "name": "17_realista_cha_de_flores_bule_vidro.png",
+        "ext": "PNG",
+        "path": "gastronomia/17_realista_cha_de_flores_bule_vidro.png"
+      },
+      {
+        "name": "18_realista_macarons_franceses_coloridos.png",
+        "ext": "PNG",
+        "path": "gastronomia/18_realista_macarons_franceses_coloridos.png"
+      },
+      {
+        "name": "16_aroma_cafe_torrado_vapor_quente.png",
+        "ext": "PNG",
+        "path": "gastronomia/16_aroma_cafe_torrado_vapor_quente.png"
+      },
+      {
+        "name": "17_textura_caramelo_e_baunilha_suave.png",
+        "ext": "PNG",
+        "path": "gastronomia/17_textura_caramelo_e_baunilha_suave.png"
+      },
+      {
+        "name": "18_atmosfera_bistro_iluminacao_ambar.png",
+        "ext": "PNG",
+        "path": "gastronomia/18_atmosfera_bistro_iluminacao_ambar.png"
+      },
+      {
+        "name": "19_infusao_botanica_matcha_esmeralda.png",
+        "ext": "PNG",
+        "path": "gastronomia/19_infusao_botanica_matcha_esmeralda.png"
+      },
+      {
+        "name": "20_adega_bordô_veludo_vinho_tinto.png",
+        "ext": "PNG",
+        "path": "gastronomia/20_adega_bordô_veludo_vinho_tinto.png"
+      },
+      {
+        "name": "21_especiarias_douradas_acafrao_e_mel.png",
+        "ext": "PNG",
+        "path": "gastronomia/21_especiarias_douradas_acafrao_e_mel.png"
+      },
+      {
+        "name": "22_cacau_intenso_chocolate_aveludado.png",
+        "ext": "PNG",
+        "path": "gastronomia/22_cacau_intenso_chocolate_aveludado.png"
+      },
+      {
+        "name": "23_vapor_artesanal_forno_a_lenha.png",
+        "ext": "PNG",
+        "path": "gastronomia/23_vapor_artesanal_forno_a_lenha.png"
+      },
+      {
+        "name": "24_frutas_silvestres_calda_rubi.png",
+        "ext": "PNG",
+        "path": "gastronomia/24_frutas_silvestres_calda_rubi.png"
+      },
+      {
+        "name": "25_harmonia_gastronômica_luz_aconchegante.png",
+        "ext": "PNG",
+        "path": "gastronomia/25_harmonia_gastronômica_luz_aconchegante.png"
+      },
+      {
+        "name": "z_svg_01_ondas_de_aroma_cafe_expresso.svg",
+        "ext": "SVG",
+        "path": "gastronomia/z_svg_01_ondas_de_aroma_cafe_expresso.svg"
+      },
+      {
+        "name": "z_svg_02_geometria_botanica_folhas_cha.svg",
+        "ext": "SVG",
+        "path": "gastronomia/z_svg_02_geometria_botanica_folhas_cha.svg"
+      },
+      {
+        "name": "z_svg_03_alquimia_culinaria_dourada_minimal.svg",
+        "ext": "SVG",
+        "path": "gastronomia/z_svg_03_alquimia_culinaria_dourada_minimal.svg"
+      },
+      {
+        "name": "z_svg_04_textura_organica_terracota_e_mel.svg",
+        "ext": "SVG",
+        "path": "gastronomia/z_svg_04_textura_organica_terracota_e_mel.svg"
+      },
+      {
+        "name": "z_svg_05_aneis_de_vinho_e_cristal_bordo.svg",
+        "ext": "SVG",
+        "path": "gastronomia/z_svg_05_aneis_de_vinho_e_cristal_bordo.svg"
+      },
+      {
+        "name": "z_svg_06_vapor_suave_confeitaria_artesanal.svg",
+        "ext": "SVG",
+        "path": "gastronomia/z_svg_06_vapor_suave_confeitaria_artesanal.svg"
+      },
+      {
+        "name": "z_svg_07_mosaico_mediterraneo_gastronomia.svg",
+        "ext": "SVG",
+        "path": "gastronomia/z_svg_07_mosaico_mediterraneo_gastronomia.svg"
+      },
+      {
+        "name": "z_svg_08_fluxo_cremoso_chocolate_e_avela.svg",
+        "ext": "SVG",
+        "path": "gastronomia/z_svg_08_fluxo_cremoso_chocolate_e_avela.svg"
+      },
+      {
+        "name": "z_svg_09_constelacao_especiarias_orientais.svg",
+        "ext": "SVG",
+        "path": "gastronomia/z_svg_09_constelacao_especiarias_orientais.svg"
+      },
+      {
+        "name": "z_svg_10_menu_degustacao_editorial_luxo.svg",
+        "ext": "SVG",
+        "path": "gastronomia/z_svg_10_menu_degustacao_editorial_luxo.svg"
+      },
+      {
+        "name": "z_svg_11_vapor_dourado_xicara_minimalista.svg",
+        "ext": "SVG",
+        "path": "gastronomia/z_svg_11_vapor_dourado_xicara_minimalista.svg"
+      },
+      {
+        "name": "z_svg_12_harmonizacao_vinho_e_especiarias.svg",
+        "ext": "SVG",
+        "path": "gastronomia/z_svg_12_harmonizacao_vinho_e_especiarias.svg"
+      }
+    ]
+  },
+  "esportes": {
+    "name": "Esportes & Movimento",
+    "icon": "🏆",
+    "count": 40,
+    "images": [
+      {
+        "name": "01_realista_corredor_pista_atletismo.png",
+        "ext": "PNG",
+        "path": "esportes/01_realista_corredor_pista_atletismo.png"
+      },
+      {
+        "name": "02_realista_nadador_piscina_olimpica.png",
+        "ext": "PNG",
+        "path": "esportes/02_realista_nadador_piscina_olimpica.png"
+      },
+      {
+        "name": "03_realista_surfista_onda_tubular_mar.png",
+        "ext": "PNG",
+        "path": "esportes/03_realista_surfista_onda_tubular_mar.png"
+      },
+      {
+        "name": "04_realista_ciclista_estrada_montanhas.png",
+        "ext": "PNG",
+        "path": "esportes/04_realista_ciclista_estrada_montanhas.png"
+      },
+      {
+        "name": "05_realista_estadio_futebol_iluminado_noite.png",
+        "ext": "PNG",
+        "path": "esportes/05_realista_estadio_futebol_iluminado_noite.png"
+      },
+      {
+        "name": "06_realista_quadra_basquete_urbana_por_do_sol.png",
+        "ext": "PNG",
+        "path": "esportes/06_realista_quadra_basquete_urbana_por_do_sol.png"
+      },
+      {
+        "name": "07_realista_escalador_parede_rocha_vertical.png",
+        "ext": "PNG",
+        "path": "esportes/07_realista_escalador_parede_rocha_vertical.png"
+      },
+      {
+        "name": "08_realista_ginastica_artistica_movimento.png",
+        "ext": "PNG",
+        "path": "esportes/08_realista_ginastica_artistica_movimento.png"
+      },
+      {
+        "name": "09_realista_esquiador_neve_alpina_velocidade.png",
+        "ext": "PNG",
+        "path": "esportes/09_realista_esquiador_neve_alpina_velocidade.png"
+      },
+      {
+        "name": "10_realista_vela_oceanica_regata_mar.png",
+        "ext": "PNG",
+        "path": "esportes/10_realista_vela_oceanica_regata_mar.png"
+      },
+      {
+        "name": "11_realista_artes_marciais_tatame_combate.png",
+        "ext": "PNG",
+        "path": "esportes/11_realista_artes_marciais_tatame_combate.png"
+      },
+      {
+        "name": "12_realista_tenista_quadra_saibro_acao.png",
+        "ext": "PNG",
+        "path": "esportes/12_realista_tenista_quadra_saibro_acao.png"
+      },
+      {
+        "name": "13_realista_skate_manobra_aerea_bowl.png",
+        "ext": "PNG",
+        "path": "esportes/13_realista_skate_manobra_aerea_bowl.png"
+      },
+      {
+        "name": "14_realista_remo_lago_espelhado_amanhecer.png",
+        "ext": "PNG",
+        "path": "esportes/14_realista_remo_lago_espelhado_amanhecer.png"
+      },
+      {
+        "name": "15_realista_yoga_equilibrio_nascer_do_sol.png",
+        "ext": "PNG",
+        "path": "esportes/15_realista_yoga_equilibrio_nascer_do_sol.png"
+      },
+      {
+        "name": "16_realista_paraquedismo_queda_livre_ceu.png",
+        "ext": "PNG",
+        "path": "esportes/16_realista_paraquedismo_queda_livre_ceu.png"
+      },
+      {
+        "name": "17_realista_arco_e_flecha_alvo_precisao.png",
+        "ext": "PNG",
+        "path": "esportes/17_realista_arco_e_flecha_alvo_precisao.png"
+      },
+      {
+        "name": "18_realista_caiaque_corredeiras_aventura.png",
+        "ext": "PNG",
+        "path": "esportes/18_realista_caiaque_corredeiras_aventura.png"
+      },
+      {
+        "name": "16_energia_cinetica_velocidade_azul.png",
+        "ext": "PNG",
+        "path": "esportes/16_energia_cinetica_velocidade_azul.png"
+      },
+      {
+        "name": "17_arena_noturna_holofotes_estadio.png",
+        "ext": "PNG",
+        "path": "esportes/17_arena_noturna_holofotes_estadio.png"
+      },
+      {
+        "name": "18_impulso_atletico_chama_olimpica.png",
+        "ext": "PNG",
+        "path": "esportes/18_impulso_atletico_chama_olimpica.png"
+      },
+      {
+        "name": "19_fluidez_aquatica_piscina_turquesa.png",
+        "ext": "PNG",
+        "path": "esportes/19_fluidez_aquatica_piscina_turquesa.png"
+      },
+      {
+        "name": "20_adrenalina_vermelha_alta_intensidade.png",
+        "ext": "PNG",
+        "path": "esportes/20_adrenalina_vermelha_alta_intensidade.png"
+      },
+      {
+        "name": "21_horizonte_maratona_amanhecer_dourado.png",
+        "ext": "PNG",
+        "path": "esportes/21_horizonte_maratona_amanhecer_dourado.png"
+      },
+      {
+        "name": "22_quadra_neon_movimento_urbano.png",
+        "ext": "PNG",
+        "path": "esportes/22_quadra_neon_movimento_urbano.png"
+      },
+      {
+        "name": "23_vento_e_vela_oceano_dinamico.png",
+        "ext": "PNG",
+        "path": "esportes/23_vento_e_vela_oceano_dinamico.png"
+      },
+      {
+        "name": "24_equilibrio_zen_energia_vital.png",
+        "ext": "PNG",
+        "path": "esportes/24_equilibrio_zen_energia_vital.png"
+      },
+      {
+        "name": "25_sprint_final_rastro_luminoso.png",
+        "ext": "PNG",
+        "path": "esportes/25_sprint_final_rastro_luminoso.png"
+      },
+      {
+        "name": "z_svg_01_raias_olimpicas_velocidade_cinetica.svg",
+        "ext": "SVG",
+        "path": "esportes/z_svg_01_raias_olimpicas_velocidade_cinetica.svg"
+      },
+      {
+        "name": "z_svg_02_geometria_tatica_estadio_arena.svg",
+        "ext": "SVG",
+        "path": "esportes/z_svg_02_geometria_tatica_estadio_arena.svg"
+      },
+      {
+        "name": "z_svg_03_ondas_de_impacto_alta_energia.svg",
+        "ext": "SVG",
+        "path": "esportes/z_svg_03_ondas_de_impacto_alta_energia.svg"
+      },
+      {
+        "name": "z_svg_04_vetores_aerodinamicos_ciclismo.svg",
+        "ext": "SVG",
+        "path": "esportes/z_svg_04_vetores_aerodinamicos_ciclismo.svg"
+      },
+      {
+        "name": "z_svg_05_fluxo_aquatico_natacao_turquesa.svg",
+        "ext": "SVG",
+        "path": "esportes/z_svg_05_fluxo_aquatico_natacao_turquesa.svg"
+      },
+      {
+        "name": "z_svg_06_aneis_de_performance_atletica.svg",
+        "ext": "SVG",
+        "path": "esportes/z_svg_06_aneis_de_performance_atletica.svg"
+      },
+      {
+        "name": "z_svg_07_topografia_montanha_trail_run.svg",
+        "ext": "SVG",
+        "path": "esportes/z_svg_07_topografia_montanha_trail_run.svg"
+      },
+      {
+        "name": "z_svg_08_trajetoria_balistica_esporte_precisao.svg",
+        "ext": "SVG",
+        "path": "esportes/z_svg_08_trajetoria_balistica_esporte_precisao.svg"
+      },
+      {
+        "name": "z_svg_09_ritmo_cardiaco_energia_vital_neon.svg",
+        "ext": "SVG",
+        "path": "esportes/z_svg_09_ritmo_cardiaco_energia_vital_neon.svg"
+      },
+      {
+        "name": "z_svg_10_podio_campeoes_luzes_estadio.svg",
+        "ext": "SVG",
+        "path": "esportes/z_svg_10_podio_campeoes_luzes_estadio.svg"
+      },
+      {
+        "name": "z_svg_11_cronometro_precisao_alta_velocidade.svg",
+        "ext": "SVG",
+        "path": "esportes/z_svg_11_cronometro_precisao_alta_velocidade.svg"
+      },
+      {
+        "name": "z_svg_12_ondas_dinamicas_atletismo_ouro.svg",
+        "ext": "SVG",
+        "path": "esportes/z_svg_12_ondas_dinamicas_atletismo_ouro.svg"
+      }
+    ]
+  },
+  "ciencia": {
+    "name": "Ciência & Biotecnologia",
+    "icon": "🧬",
+    "count": 40,
+    "images": [
+      {
+        "name": "01_realista_dupla_helice_dna_genetica.png",
+        "ext": "PNG",
+        "path": "ciencia/01_realista_dupla_helice_dna_genetica.png"
+      },
+      {
+        "name": "02_realista_microscopia_celulas_fluorescentes.png",
+        "ext": "PNG",
+        "path": "ciencia/02_realista_microscopia_celulas_fluorescentes.png"
+      },
+      {
+        "name": "03_realista_neuronios_sinapses_cerebrais.png",
+        "ext": "PNG",
+        "path": "ciencia/03_realista_neuronios_sinapses_cerebrais.png"
+      },
+      {
+        "name": "04_realista_laboratorio_biotecnologia_moderno.png",
+        "ext": "PNG",
+        "path": "ciencia/04_realista_laboratorio_biotecnologia_moderno.png"
+      },
+      {
+        "name": "05_realista_cristais_luz_polarizada_quimica.png",
+        "ext": "PNG",
+        "path": "ciencia/05_realista_cristais_luz_polarizada_quimica.png"
+      },
+      {
+        "name": "06_realista_placa_de_petri_microbiologia.png",
+        "ext": "PNG",
+        "path": "ciencia/06_realista_placa_de_petri_microbiologia.png"
+      },
+      {
+        "name": "07_realista_estrutura_molecular_quimica_3d.png",
+        "ext": "PNG",
+        "path": "ciencia/07_realista_estrutura_molecular_quimica_3d.png"
+      },
+      {
+        "name": "08_realista_folha_vegetal_microscopio_celulas.png",
+        "ext": "PNG",
+        "path": "ciencia/08_realista_folha_vegetal_microscopio_celulas.png"
+      },
+      {
+        "name": "09_realista_pipeta_precisao_analise_genetica.png",
+        "ext": "PNG",
+        "path": "ciencia/09_realista_pipeta_precisao_analise_genetica.png"
+      },
+      {
+        "name": "10_realista_globulos_vermelhos_microscopia.png",
+        "ext": "PNG",
+        "path": "ciencia/10_realista_globulos_vermelhos_microscopia.png"
+      },
+      {
+        "name": "11_realista_equipamento_medico_alta_precisao.png",
+        "ext": "PNG",
+        "path": "ciencia/11_realista_equipamento_medico_alta_precisao.png"
+      },
+      {
+        "name": "12_realista_estufa_pesquisa_botanica_ciencia.png",
+        "ext": "PNG",
+        "path": "ciencia/12_realista_estufa_pesquisa_botanica_ciencia.png"
+      },
+      {
+        "name": "13_realista_reacao_quimica_fluorescente_frasco.png",
+        "ext": "PNG",
+        "path": "ciencia/13_realista_reacao_quimica_fluorescente_frasco.png"
+      },
+      {
+        "name": "14_realista_microscopio_eletronico_pesquisa.png",
+        "ext": "PNG",
+        "path": "ciencia/14_realista_microscopio_eletronico_pesquisa.png"
+      },
+      {
+        "name": "15_realista_diatomaceas_microscopio_simetria.png",
+        "ext": "PNG",
+        "path": "ciencia/15_realista_diatomaceas_microscopio_simetria.png"
+      },
+      {
+        "name": "16_realista_acelerador_particulas_cern_detector.png",
+        "ext": "PNG",
+        "path": "ciencia/16_realista_acelerador_particulas_cern_detector.png"
+      },
+      {
+        "name": "17_realista_espectroscopia_laser_optica_mesa.png",
+        "ext": "PNG",
+        "path": "ciencia/17_realista_espectroscopia_laser_optica_mesa.png"
+      },
+      {
+        "name": "18_realista_cultura_tecido_vegetal_in_vitro.png",
+        "ext": "PNG",
+        "path": "ciencia/18_realista_cultura_tecido_vegetal_in_vitro.png"
+      },
+      {
+        "name": "16_bioluminescencia_celular_ciano.png",
+        "ext": "PNG",
+        "path": "ciencia/16_bioluminescencia_celular_ciano.png"
+      },
+      {
+        "name": "17_rede_sinaptica_impulso_neural.png",
+        "ext": "PNG",
+        "path": "ciencia/17_rede_sinaptica_impulso_neural.png"
+      },
+      {
+        "name": "18_espectro_molecular_fluorescente.png",
+        "ext": "PNG",
+        "path": "ciencia/18_espectro_molecular_fluorescente.png"
+      },
+      {
+        "name": "19_laboratorio_quantico_feixe_laser.png",
+        "ext": "PNG",
+        "path": "ciencia/19_laboratorio_quantico_feixe_laser.png"
+      },
+      {
+        "name": "20_sintese_genetica_luz_ultravioleta.png",
+        "ext": "PNG",
+        "path": "ciencia/20_sintese_genetica_luz_ultravioleta.png"
+      },
+      {
+        "name": "21_plasma_bioquimico_energia_limpa.png",
+        "ext": "PNG",
+        "path": "ciencia/21_plasma_bioquimico_energia_limpa.png"
+      },
+      {
+        "name": "22_cristalografia_raios_x_difracao.png",
+        "ext": "PNG",
+        "path": "ciencia/22_cristalografia_raios_x_difracao.png"
+      },
+      {
+        "name": "23_ecossistema_microbiologico_verde.png",
+        "ext": "PNG",
+        "path": "ciencia/23_ecossistema_microbiologico_verde.png"
+      },
+      {
+        "name": "24_nanotecnologia_superficie_atomica.png",
+        "ext": "PNG",
+        "path": "ciencia/24_nanotecnologia_superficie_atomica.png"
+      },
+      {
+        "name": "25_horizonte_cientifico_inovacao_azul.png",
+        "ext": "PNG",
+        "path": "ciencia/25_horizonte_cientifico_inovacao_azul.png"
+      },
+      {
+        "name": "z_svg_01_rede_molecular_hexagonal_quimica.svg",
+        "ext": "SVG",
+        "path": "ciencia/z_svg_01_rede_molecular_hexagonal_quimica.svg"
+      },
+      {
+        "name": "z_svg_02_dupla_helice_genoma_bioinformatica.svg",
+        "ext": "SVG",
+        "path": "ciencia/z_svg_02_dupla_helice_genoma_bioinformatica.svg"
+      },
+      {
+        "name": "z_svg_03_sinapses_neurais_conectoma_cerebral.svg",
+        "ext": "SVG",
+        "path": "ciencia/z_svg_03_sinapses_neurais_conectoma_cerebral.svg"
+      },
+      {
+        "name": "z_svg_04_grade_microscopia_laboratorial.svg",
+        "ext": "SVG",
+        "path": "ciencia/z_svg_04_grade_microscopia_laboratorial.svg"
+      },
+      {
+        "name": "z_svg_05_ondas_de_biofrequencia_espectro.svg",
+        "ext": "SVG",
+        "path": "ciencia/z_svg_05_ondas_de_biofrequencia_espectro.svg"
+      },
+      {
+        "name": "z_svg_06_orbitais_atomicos_fisica_quantica.svg",
+        "ext": "SVG",
+        "path": "ciencia/z_svg_06_orbitais_atomicos_fisica_quantica.svg"
+      },
+      {
+        "name": "z_svg_07_estrutura_cristalina_simetria.svg",
+        "ext": "SVG",
+        "path": "ciencia/z_svg_07_estrutura_cristalina_simetria.svg"
+      },
+      {
+        "name": "z_svg_08_matriz_biotecnologia_sustentavel.svg",
+        "ext": "SVG",
+        "path": "ciencia/z_svg_08_matriz_biotecnologia_sustentavel.svg"
+      },
+      {
+        "name": "z_svg_09_fluxo_celular_bioluminescente.svg",
+        "ext": "SVG",
+        "path": "ciencia/z_svg_09_fluxo_celular_bioluminescente.svg"
+      },
+      {
+        "name": "z_svg_10_diagrama_cientifico_inovacao_pura.svg",
+        "ext": "SVG",
+        "path": "ciencia/z_svg_10_diagrama_cientifico_inovacao_pura.svg"
+      },
+      {
+        "name": "z_svg_11_espectrometria_de_massa_ondas.svg",
+        "ext": "SVG",
+        "path": "ciencia/z_svg_11_espectrometria_de_massa_ondas.svg"
+      },
+      {
+        "name": "z_svg_12_rede_bioquimica_enzimas_luz.svg",
+        "ext": "SVG",
+        "path": "ciencia/z_svg_12_rede_bioquimica_enzimas_luz.svg"
+      }
+    ]
+  },
+  "cinema": {
+    "name": "Cinema & Audiovisual",
+    "icon": "🎬",
+    "count": 40,
+    "images": [
+      {
+        "name": "01_realista_camera_cinema_profissional_set.png",
+        "ext": "PNG",
+        "path": "cinema/01_realista_camera_cinema_profissional_set.png"
+      },
+      {
+        "name": "02_realista_claquete_filmagem_estudio.png",
+        "ext": "PNG",
+        "path": "cinema/02_realista_claquete_filmagem_estudio.png"
+      },
+      {
+        "name": "03_realista_sala_cinema_poltronas_vermelhas.png",
+        "ext": "PNG",
+        "path": "cinema/03_realista_sala_cinema_poltronas_vermelhas.png"
+      },
+      {
+        "name": "04_realista_lente_fotografica_anamorfica.png",
+        "ext": "PNG",
+        "path": "cinema/04_realista_lente_fotografica_anamorfica.png"
+      },
+      {
+        "name": "05_realista_projetor_filme_35mm_feixe_luz.png",
+        "ext": "PNG",
+        "path": "cinema/05_realista_projetor_filme_35mm_feixe_luz.png"
+      },
+      {
+        "name": "06_realista_rolo_pelicula_cinematografica.png",
+        "ext": "PNG",
+        "path": "cinema/06_realista_rolo_pelicula_cinematografica.png"
+      },
+      {
+        "name": "07_realista_palco_teatro_cortinas_veludo.png",
+        "ext": "PNG",
+        "path": "cinema/07_realista_palco_teatro_cortinas_veludo.png"
+      },
+      {
+        "name": "08_realista_iluminacao_estudio_refletores.png",
+        "ext": "PNG",
+        "path": "cinema/08_realista_iluminacao_estudio_refletores.png"
+      },
+      {
+        "name": "09_realista_cadeira_diretor_set_gravacao.png",
+        "ext": "PNG",
+        "path": "cinema/09_realista_cadeira_diretor_set_gravacao.png"
+      },
+      {
+        "name": "10_realista_mesa_edicao_color_grading_video.png",
+        "ext": "PNG",
+        "path": "cinema/10_realista_mesa_edicao_color_grading_video.png"
+      },
+      {
+        "name": "11_realista_silhueta_noir_neblina_noturna.png",
+        "ext": "PNG",
+        "path": "cinema/11_realista_silhueta_noir_neblina_noturna.png"
+      },
+      {
+        "name": "12_realista_microfone_boom_gravacao_cinema.png",
+        "ext": "PNG",
+        "path": "cinema/12_realista_microfone_boom_gravacao_cinema.png"
+      },
+      {
+        "name": "13_realista_bastidores_producao_audiovisual.png",
+        "ext": "PNG",
+        "path": "cinema/13_realista_bastidores_producao_audiovisual.png"
+      },
+      {
+        "name": "14_realista_letreiro_luminoso_cinema_retro.png",
+        "ext": "PNG",
+        "path": "cinema/14_realista_letreiro_luminoso_cinema_retro.png"
+      },
+      {
+        "name": "15_realista_holofote_teatral_dramatico_palco.png",
+        "ext": "PNG",
+        "path": "cinema/15_realista_holofote_teatral_dramatico_palco.png"
+      },
+      {
+        "name": "16_realista_orquestra_fosso_teatro_opera.png",
+        "ext": "PNG",
+        "path": "cinema/16_realista_orquestra_fosso_teatro_opera.png"
+      },
+      {
+        "name": "17_realista_estudio_dublagem_gravacao_cinema.png",
+        "ext": "PNG",
+        "path": "cinema/17_realista_estudio_dublagem_gravacao_cinema.png"
+      },
+      {
+        "name": "18_realista_festival_cinema_tapete_vermelho.png",
+        "ext": "PNG",
+        "path": "cinema/18_realista_festival_cinema_tapete_vermelho.png"
+      },
+      {
+        "name": "16_anamorfico_teal_and_orange_flare.png",
+        "ext": "PNG",
+        "path": "cinema/16_anamorfico_teal_and_orange_flare.png"
+      },
+      {
+        "name": "17_cortina_de_veludo_palco_real.png",
+        "ext": "PNG",
+        "path": "cinema/17_cortina_de_veludo_palco_real.png"
+      },
+      {
+        "name": "18_feixe_de_projetor_fumaca_cinema.png",
+        "ext": "PNG",
+        "path": "cinema/18_feixe_de_projetor_fumaca_cinema.png"
+      },
+      {
+        "name": "19_atmosfera_film_noir_sombra_e_ouro.png",
+        "ext": "PNG",
+        "path": "cinema/19_atmosfera_film_noir_sombra_e_ouro.png"
+      },
+      {
+        "name": "20_neon_cyber_cinema_noturno.png",
+        "ext": "PNG",
+        "path": "cinema/20_neon_cyber_cinema_noturno.png"
+      },
+      {
+        "name": "21_contraluz_dramatico_set_filmagem.png",
+        "ext": "PNG",
+        "path": "cinema/21_contraluz_dramatico_set_filmagem.png"
+      },
+      {
+        "name": "22_estetica_35mm_kodachrome_vintage.png",
+        "ext": "PNG",
+        "path": "cinema/22_estetica_35mm_kodachrome_vintage.png"
+      },
+      {
+        "name": "23_holofote_teatral_neblina_palco.png",
+        "ext": "PNG",
+        "path": "cinema/23_holofote_teatral_neblina_palco.png"
+      },
+      {
+        "name": "24_widescreen_cinematic_bokeh_noturno.png",
+        "ext": "PNG",
+        "path": "cinema/24_widescreen_cinematic_bokeh_noturno.png"
+      },
+      {
+        "name": "25_premiere_gala_luzes_douradas.png",
+        "ext": "PNG",
+        "path": "cinema/25_premiere_gala_luzes_douradas.png"
+      },
+      {
+        "name": "z_svg_01_feixes_holofote_palco_teatral.svg",
+        "ext": "SVG",
+        "path": "cinema/z_svg_01_feixes_holofote_palco_teatral.svg"
+      },
+      {
+        "name": "z_svg_02_proporcao_widescreen_anamorfica.svg",
+        "ext": "SVG",
+        "path": "cinema/z_svg_02_proporcao_widescreen_anamorfica.svg"
+      },
+      {
+        "name": "z_svg_03_ondas_sonoras_trilha_cinematografica.svg",
+        "ext": "SVG",
+        "path": "cinema/z_svg_03_ondas_sonoras_trilha_cinematografica.svg"
+      },
+      {
+        "name": "z_svg_04_grade_composicao_regra_dos_tercos.svg",
+        "ext": "SVG",
+        "path": "cinema/z_svg_04_grade_composicao_regra_dos_tercos.svg"
+      },
+      {
+        "name": "z_svg_05_iris_abertura_lente_camera.svg",
+        "ext": "SVG",
+        "path": "cinema/z_svg_05_iris_abertura_lente_camera.svg"
+      },
+      {
+        "name": "z_svg_06_cortina_veludo_teatro_classico.svg",
+        "ext": "SVG",
+        "path": "cinema/z_svg_06_cortina_veludo_teatro_classico.svg"
+      },
+      {
+        "name": "z_svg_07_prisma_optico_projecao_35mm.svg",
+        "ext": "SVG",
+        "path": "cinema/z_svg_07_prisma_optico_projecao_35mm.svg"
+      },
+      {
+        "name": "z_svg_08_estetica_noir_luz_e_sombra.svg",
+        "ext": "SVG",
+        "path": "cinema/z_svg_08_estetica_noir_luz_e_sombra.svg"
+      },
+      {
+        "name": "z_svg_09_espectro_color_grading_teal_orange.svg",
+        "ext": "SVG",
+        "path": "cinema/z_svg_09_espectro_color_grading_teal_orange.svg"
+      },
+      {
+        "name": "z_svg_10_noite_de_estreia_tapete_vermelho.svg",
+        "ext": "SVG",
+        "path": "cinema/z_svg_10_noite_de_estreia_tapete_vermelho.svg"
+      },
+      {
+        "name": "z_svg_11_lente_anamorfica_flare_horizontal.svg",
+        "ext": "SVG",
+        "path": "cinema/z_svg_11_lente_anamorfica_flare_horizontal.svg"
+      },
+      {
+        "name": "z_svg_12_claquete_minimalista_cinema_noir.svg",
+        "ext": "SVG",
+        "path": "cinema/z_svg_12_claquete_minimalista_cinema_noir.svg"
       }
     ]
   },
   "danca": {
     "name": "Dança",
     "icon": "💃",
-    "count": 68,
+    "count": 75,
     "images": [
       {
         "name": "01_realista_bailarina_classica_ponta.png",
@@ -755,6 +2032,26 @@
         "name": "30_realista_danca_circular_tribal.png",
         "ext": "PNG",
         "path": "danca/30_realista_danca_circular_tribal.png"
+      },
+      {
+        "name": "31_realista_danca_indiana_bharatanatyam.png",
+        "ext": "PNG",
+        "path": "danca/31_realista_danca_indiana_bharatanatyam.png"
+      },
+      {
+        "name": "32_realista_ballet_lago_dos_cisnes_ensemble.png",
+        "ext": "PNG",
+        "path": "danca/32_realista_ballet_lago_dos_cisnes_ensemble.png"
+      },
+      {
+        "name": "33_realista_danca_acrobatica_aerea_tecido.png",
+        "ext": "PNG",
+        "path": "danca/33_realista_danca_acrobatica_aerea_tecido.png"
+      },
+      {
+        "name": "34_realista_danca_de_salao_valsa_elegante.png",
+        "ext": "PNG",
+        "path": "danca/34_realista_danca_de_salao_valsa_elegante.png"
       },
       {
         "name": "01_palco_sapateado.jpg",
@@ -945,13 +2242,28 @@
         "name": "z_svg_32_sapateado_tablado_metal_eco.svg",
         "ext": "SVG",
         "path": "danca/z_svg_32_sapateado_tablado_metal_eco.svg"
+      },
+      {
+        "name": "z_svg_33_fitas_ritmicas_movimento_fluido.svg",
+        "ext": "SVG",
+        "path": "danca/z_svg_33_fitas_ritmicas_movimento_fluido.svg"
+      },
+      {
+        "name": "z_svg_34_palco_iluminado_coreografia_ouro.svg",
+        "ext": "SVG",
+        "path": "danca/z_svg_34_palco_iluminado_coreografia_ouro.svg"
+      },
+      {
+        "name": "z_svg_35_ondas_de_valsa_contemporanea.svg",
+        "ext": "SVG",
+        "path": "danca/z_svg_35_ondas_de_valsa_contemporanea.svg"
       }
     ]
   },
   "educacao": {
     "name": "Educação",
     "icon": "🎓",
-    "count": 68,
+    "count": 75,
     "images": [
       {
         "name": "01_realista_biblioteca_historica_livros.png",
@@ -1102,6 +2414,26 @@
         "name": "30_realista_cerebro_modelo_neurociencia.png",
         "ext": "PNG",
         "path": "educacao/30_realista_cerebro_modelo_neurociencia.png"
+      },
+      {
+        "name": "31_realista_globo_terrestre_antigo_estudo.png",
+        "ext": "PNG",
+        "path": "educacao/31_realista_globo_terrestre_antigo_estudo.png"
+      },
+      {
+        "name": "32_realista_planetario_projecao_educativa.png",
+        "ext": "PNG",
+        "path": "educacao/32_realista_planetario_projecao_educativa.png"
+      },
+      {
+        "name": "33_realista_oficina_maker_eletronica_ensino.png",
+        "ext": "PNG",
+        "path": "educacao/33_realista_oficina_maker_eletronica_ensino.png"
+      },
+      {
+        "name": "34_realista_anfiteatro_universitario_madeira.png",
+        "ext": "PNG",
+        "path": "educacao/34_realista_anfiteatro_universitario_madeira.png"
       },
       {
         "name": "01_estudo_e-learning_laptop.jpg",
@@ -1292,13 +2624,28 @@
         "name": "z_svg_32_laboratorio_computacao_educativa.svg",
         "ext": "SVG",
         "path": "educacao/z_svg_32_laboratorio_computacao_educativa.svg"
+      },
+      {
+        "name": "z_svg_33_mapa_do_conhecimento_conexoes.svg",
+        "ext": "SVG",
+        "path": "educacao/z_svg_33_mapa_do_conhecimento_conexoes.svg"
+      },
+      {
+        "name": "z_svg_34_geometria_euclidiana_quadro_azul.svg",
+        "ext": "SVG",
+        "path": "educacao/z_svg_34_geometria_euclidiana_quadro_azul.svg"
+      },
+      {
+        "name": "z_svg_35_biblioteca_digital_Sabedoria_luz.svg",
+        "ext": "SVG",
+        "path": "educacao/z_svg_35_biblioteca_digital_Sabedoria_luz.svg"
       }
     ]
   },
   "musica": {
     "name": "Música",
     "icon": "🎵",
-    "count": 79,
+    "count": 85,
     "images": [
       {
         "name": "01_realista_piano_de_cauda_palco.png",
@@ -1451,6 +2798,21 @@
         "path": "musica/30_realista_pedaleira_guitarra_estompbox.png"
       },
       {
+        "name": "31_realista_violoncelo_classico_madeira.png",
+        "ext": "PNG",
+        "path": "musica/31_realista_violoncelo_classico_madeira.png"
+      },
+      {
+        "name": "32_realista_harpa_sinfonica_cordas_ouro.png",
+        "ext": "PNG",
+        "path": "musica/32_realista_harpa_sinfonica_cordas_ouro.png"
+      },
+      {
+        "name": "33_realista_sintetizador_modular_cabos_analogico.png",
+        "ext": "PNG",
+        "path": "musica/33_realista_sintetizador_modular_cabos_analogico.png"
+      },
+      {
         "name": "17_estudio_vintage_piano_violoncelo.jpg",
         "ext": "JPG",
         "path": "musica/17_estudio_vintage_piano_violoncelo.jpg"
@@ -1516,11 +2878,6 @@
         "path": "musica/Gemini_Generated_Image_ (1).png"
       },
       {
-        "name": "Gemini_Generated_Image_ (11).png",
-        "ext": "PNG",
-        "path": "musica/Gemini_Generated_Image_ (11).png"
-      },
-      {
         "name": "Gemini_Generated_Image_ (2).png",
         "ext": "PNG",
         "path": "musica/Gemini_Generated_Image_ (2).png"
@@ -1559,6 +2916,11 @@
         "name": "Gemini_Generated_Image_ (9).png",
         "ext": "PNG",
         "path": "musica/Gemini_Generated_Image_ (9).png"
+      },
+      {
+        "name": "Gemini_Generated_Image_ (11).png",
+        "ext": "PNG",
+        "path": "musica/Gemini_Generated_Image_ (11).png"
       },
       {
         "name": "Gemini_Generated_Image_.png",
@@ -1694,13 +3056,28 @@
         "name": "z_svg_47_flauta_transversal_prata_brilho.svg",
         "ext": "SVG",
         "path": "musica/z_svg_47_flauta_transversal_prata_brilho.svg"
+      },
+      {
+        "name": "z_svg_48_partitura_sinfonica_ondas_ouro.svg",
+        "ext": "SVG",
+        "path": "musica/z_svg_48_partitura_sinfonica_ondas_ouro.svg"
+      },
+      {
+        "name": "z_svg_49_equalizador_estudio_frequencia_neon.svg",
+        "ext": "SVG",
+        "path": "musica/z_svg_49_equalizador_estudio_frequencia_neon.svg"
+      },
+      {
+        "name": "z_svg_50_ressonancia_acustica_cordas_violino.svg",
+        "ext": "SVG",
+        "path": "musica/z_svg_50_ressonancia_acustica_cordas_violino.svg"
       }
     ]
   },
   "natureza": {
     "name": "Natureza",
     "icon": "🌿",
-    "count": 68,
+    "count": 75,
     "images": [
       {
         "name": "01_realista_leao_macho_savana.png",
@@ -1851,6 +3228,26 @@
         "name": "30_realista_girafa_por_do_sol_savana.png",
         "ext": "PNG",
         "path": "natureza/30_realista_girafa_por_do_sol_savana.png"
+      },
+      {
+        "name": "31_realista_floresta_bambu_arashiyama_luz.png",
+        "ext": "PNG",
+        "path": "natureza/31_realista_floresta_bambu_arashiyama_luz.png"
+      },
+      {
+        "name": "32_realista_canyon_antelope_arenito_luz.png",
+        "ext": "PNG",
+        "path": "natureza/32_realista_canyon_antelope_arenito_luz.png"
+      },
+      {
+        "name": "33_realista_lago_glacial_turquesa_montanhas.png",
+        "ext": "PNG",
+        "path": "natureza/33_realista_lago_glacial_turquesa_montanhas.png"
+      },
+      {
+        "name": "34_realista_caverna_de_gelo_azul_glaciar.png",
+        "ext": "PNG",
+        "path": "natureza/34_realista_caverna_de_gelo_azul_glaciar.png"
       },
       {
         "name": "01_aurora_boreal_lago.jpg",
@@ -2041,13 +3438,28 @@
         "name": "z_svg_31_selva_tropical_folhas_monstera_orvalho.svg",
         "ext": "SVG",
         "path": "natureza/z_svg_31_selva_tropical_folhas_monstera_orvalho.svg"
+      },
+      {
+        "name": "z_svg_32_auroras_polares_montanhas_noite.svg",
+        "ext": "SVG",
+        "path": "natureza/z_svg_32_auroras_polares_montanhas_noite.svg"
+      },
+      {
+        "name": "z_svg_33_recife_corais_oceano_profundo.svg",
+        "ext": "SVG",
+        "path": "natureza/z_svg_33_recife_corais_oceano_profundo.svg"
+      },
+      {
+        "name": "z_svg_34_dunas_deserto_vento_dourado.svg",
+        "ext": "SVG",
+        "path": "natureza/z_svg_34_dunas_deserto_vento_dourado.svg"
       }
     ]
   },
   "tecnologia": {
     "name": "Tecnologia",
     "icon": "⚡",
-    "count": 68,
+    "count": 75,
     "images": [
       {
         "name": "01_realista_robo_humanoide_rosto.png",
@@ -2198,6 +3610,26 @@
         "name": "30_realista_veiculo_autonomo_sensores_lidar.png",
         "ext": "PNG",
         "path": "tecnologia/30_realista_veiculo_autonomo_sensores_lidar.png"
+      },
+      {
+        "name": "31_realista_fibra_optica_feixes_luminosos.png",
+        "ext": "PNG",
+        "path": "tecnologia/31_realista_fibra_optica_feixes_luminosos.png"
+      },
+      {
+        "name": "32_realista_supercomputador_hpc_datacenter.png",
+        "ext": "PNG",
+        "path": "tecnologia/32_realista_supercomputador_hpc_datacenter.png"
+      },
+      {
+        "name": "33_realista_painel_solar_usina_energia_limpa.png",
+        "ext": "PNG",
+        "path": "tecnologia/33_realista_painel_solar_usina_energia_limpa.png"
+      },
+      {
+        "name": "34_realista_braco_robotico_cirurgico_precisao.png",
+        "ext": "PNG",
+        "path": "tecnologia/34_realista_braco_robotico_cirurgico_precisao.png"
       },
       {
         "name": "01_rede_neural_ia.jpg",
@@ -2388,14 +3820,59 @@
         "name": "z_svg_33_terminal_matrix_codigo_hacker_verde.svg",
         "ext": "SVG",
         "path": "tecnologia/z_svg_33_terminal_matrix_codigo_hacker_verde.svg"
+      },
+      {
+        "name": "z_svg_34_arquitetura_cloud_computing_nos.svg",
+        "ext": "SVG",
+        "path": "tecnologia/z_svg_34_arquitetura_cloud_computing_nos.svg"
+      },
+      {
+        "name": "z_svg_35_processador_quantico_circuitos_luz.svg",
+        "ext": "SVG",
+        "path": "tecnologia/z_svg_35_processador_quantico_circuitos_luz.svg"
+      },
+      {
+        "name": "z_svg_36_ciberseguranca_escudo_malha_digital.svg",
+        "ext": "SVG",
+        "path": "tecnologia/z_svg_36_ciberseguranca_escudo_malha_digital.svg"
       }
     ]
   },
   "fotografia": {
     "name": "Fotografia",
     "icon": "📸",
-    "count": 46,
+    "count": 55,
     "images": [
+      {
+        "name": "24_realista_longa_exposicao_trilhas_estrelas.png",
+        "ext": "PNG",
+        "path": "fotografia/24_realista_longa_exposicao_trilhas_estrelas.png"
+      },
+      {
+        "name": "25_realista_hora_azul_arquitetura_urbana.png",
+        "ext": "PNG",
+        "path": "fotografia/25_realista_hora_azul_arquitetura_urbana.png"
+      },
+      {
+        "name": "26_realista_dupla_exposicao_artistica_retrato.png",
+        "ext": "PNG",
+        "path": "fotografia/26_realista_dupla_exposicao_artistica_retrato.png"
+      },
+      {
+        "name": "27_realista_reflexo_poca_dagua_urbano.png",
+        "ext": "PNG",
+        "path": "fotografia/27_realista_reflexo_poca_dagua_urbano.png"
+      },
+      {
+        "name": "28_realista_silhueta_contraluz_por_do_sol.png",
+        "ext": "PNG",
+        "path": "fotografia/28_realista_silhueta_contraluz_por_do_sol.png"
+      },
+      {
+        "name": "29_realista_neblina_matinal_floresta_raios.png",
+        "ext": "PNG",
+        "path": "fotografia/29_realista_neblina_matinal_floresta_raios.png"
+      },
       {
         "name": "acao_na_agua_realista.png",
         "ext": "PNG",
@@ -2625,14 +4102,54 @@
         "name": "23_hieroglifo_simbolos_ancestrais.png",
         "ext": "PNG",
         "path": "fotografia/23_hieroglifo_simbolos_ancestrais.png"
+      },
+      {
+        "name": "z_svg_01_diafragma_optico_lente_reflexos.svg",
+        "ext": "SVG",
+        "path": "fotografia/z_svg_01_diafragma_optico_lente_reflexos.svg"
+      },
+      {
+        "name": "z_svg_02_bokeh_noturno_luzes_douradas.svg",
+        "ext": "SVG",
+        "path": "fotografia/z_svg_02_bokeh_noturno_luzes_douradas.svg"
+      },
+      {
+        "name": "z_svg_03_estudio_iluminacao_softbox_minimal.svg",
+        "ext": "SVG",
+        "path": "fotografia/z_svg_03_estudio_iluminacao_softbox_minimal.svg"
       }
     ]
   },
   "estilos_artisticos": {
     "name": "Estilos Artísticos",
     "icon": "🖌️",
-    "count": 58,
+    "count": 66,
     "images": [
+      {
+        "name": "30_realista_mosaico_bizantino_dourado.png",
+        "ext": "PNG",
+        "path": "estilos_artisticos/30_realista_mosaico_bizantino_dourado.png"
+      },
+      {
+        "name": "31_realista_afresco_renascentista_pintura.png",
+        "ext": "PNG",
+        "path": "estilos_artisticos/31_realista_afresco_renascentista_pintura.png"
+      },
+      {
+        "name": "32_realista_xilogravura_tradicional_impressao.png",
+        "ext": "PNG",
+        "path": "estilos_artisticos/32_realista_xilogravura_tradicional_impressao.png"
+      },
+      {
+        "name": "33_realista_caligrafia_artistica_nanquim.png",
+        "ext": "PNG",
+        "path": "estilos_artisticos/33_realista_caligrafia_artistica_nanquim.png"
+      },
+      {
+        "name": "34_realista_azulejaria_portuguesa_azul_branco.png",
+        "ext": "PNG",
+        "path": "estilos_artisticos/34_realista_azulejaria_portuguesa_azul_branco.png"
+      },
       {
         "name": "album_de_rock_realista.png",
         "ext": "PNG",
@@ -2922,14 +4439,59 @@
         "name": "29_mosaico_pastilhas_coloridas.png",
         "ext": "PNG",
         "path": "estilos_artisticos/29_mosaico_pastilhas_coloridas.png"
+      },
+      {
+        "name": "z_svg_01_composicao_bauhaus_kandinsky_formas.svg",
+        "ext": "SVG",
+        "path": "estilos_artisticos/z_svg_01_composicao_bauhaus_kandinsky_formas.svg"
+      },
+      {
+        "name": "z_svg_02_ondas_ukiyo_e_azul_prussiano.svg",
+        "ext": "SVG",
+        "path": "estilos_artisticos/z_svg_02_ondas_ukiyo_e_azul_prussiano.svg"
+      },
+      {
+        "name": "z_svg_03_vitral_art_nouveau_dourado.svg",
+        "ext": "SVG",
+        "path": "estilos_artisticos/z_svg_03_vitral_art_nouveau_dourado.svg"
       }
     ]
   },
   "estilos_digitais": {
     "name": "Digitais & Vetores",
     "icon": "💻",
-    "count": 39,
+    "count": 48,
     "images": [
+      {
+        "name": "22_realista_instalacao_led_imersiva_arte.png",
+        "ext": "PNG",
+        "path": "estilos_digitais/22_realista_instalacao_led_imersiva_arte.png"
+      },
+      {
+        "name": "23_realista_projecao_mapeada_arquitetura.png",
+        "ext": "PNG",
+        "path": "estilos_digitais/23_realista_projecao_mapeada_arquitetura.png"
+      },
+      {
+        "name": "24_realista_mesa_digitalizadora_ilustracao.png",
+        "ext": "PNG",
+        "path": "estilos_digitais/24_realista_mesa_digitalizadora_ilustracao.png"
+      },
+      {
+        "name": "25_realista_arte_generativa_fractal_3d.png",
+        "ext": "PNG",
+        "path": "estilos_digitais/25_realista_arte_generativa_fractal_3d.png"
+      },
+      {
+        "name": "26_realista_holograma_3d_display_futurista.png",
+        "ext": "PNG",
+        "path": "estilos_digitais/26_realista_holograma_3d_display_futurista.png"
+      },
+      {
+        "name": "27_realista_estetica_vaporwave_escultura_neon.png",
+        "ext": "PNG",
+        "path": "estilos_digitais/27_realista_estetica_vaporwave_escultura_neon.png"
+      },
       {
         "name": "adesivo_fofo_realista.png",
         "ext": "PNG",
@@ -3124,14 +4686,69 @@
         "name": "18_logotipo_de_esportes_emblema.png",
         "ext": "PNG",
         "path": "estilos_digitais/18_logotipo_de_esportes_emblema.png"
+      },
+      {
+        "name": "z_svg_01_grade_synthwave_retrowave_neon.svg",
+        "ext": "SVG",
+        "path": "estilos_digitais/z_svg_01_grade_synthwave_retrowave_neon.svg"
+      },
+      {
+        "name": "z_svg_02_interface_glassmorphism_camadas.svg",
+        "ext": "SVG",
+        "path": "estilos_digitais/z_svg_02_interface_glassmorphism_camadas.svg"
+      },
+      {
+        "name": "z_svg_03_pixel_grid_isometrico_cyber.svg",
+        "ext": "SVG",
+        "path": "estilos_digitais/z_svg_03_pixel_grid_isometrico_cyber.svg"
       }
     ]
   },
   "modelos_3d": {
     "name": "Modelos 3D",
     "icon": "🌐",
-    "count": 29,
+    "count": 40,
     "images": [
+      {
+        "name": "16_realista_impressao_3d_resina_escultura.png",
+        "ext": "PNG",
+        "path": "modelos_3d/16_realista_impressao_3d_resina_escultura.png"
+      },
+      {
+        "name": "17_realista_maquete_arquitetonica_escala.png",
+        "ext": "PNG",
+        "path": "modelos_3d/17_realista_maquete_arquitetonica_escala.png"
+      },
+      {
+        "name": "18_realista_escultura_bronze_patina_classica.png",
+        "ext": "PNG",
+        "path": "modelos_3d/18_realista_escultura_bronze_patina_classica.png"
+      },
+      {
+        "name": "19_realista_escultura_cinetica_vento_metal.png",
+        "ext": "PNG",
+        "path": "modelos_3d/19_realista_escultura_cinetica_vento_metal.png"
+      },
+      {
+        "name": "20_realista_diorama_ferroviario_miniatura.png",
+        "ext": "PNG",
+        "path": "modelos_3d/20_realista_diorama_ferroviario_miniatura.png"
+      },
+      {
+        "name": "21_realista_ceramica_raku_esmaltada_arte.png",
+        "ext": "PNG",
+        "path": "modelos_3d/21_realista_ceramica_raku_esmaltada_arte.png"
+      },
+      {
+        "name": "22_realista_cristal_lapidado_facetas_3d.png",
+        "ext": "PNG",
+        "path": "modelos_3d/22_realista_cristal_lapidado_facetas_3d.png"
+      },
+      {
+        "name": "23_realista_escultura_papel_kirigami_relevo.png",
+        "ext": "PNG",
+        "path": "modelos_3d/23_realista_escultura_papel_kirigami_relevo.png"
+      },
       {
         "name": "avatar_fofo_realista.png",
         "ext": "PNG",
@@ -3276,18 +4893,58 @@
         "name": "14_lego_blocos_plastico_encaixe.png",
         "ext": "PNG",
         "path": "modelos_3d/14_lego_blocos_plastico_encaixe.png"
+      },
+      {
+        "name": "z_svg_01_malha_poligonal_wireframe_3d.svg",
+        "ext": "SVG",
+        "path": "modelos_3d/z_svg_01_malha_poligonal_wireframe_3d.svg"
+      },
+      {
+        "name": "z_svg_02_esferas_cromo_reflexo_studio.svg",
+        "ext": "SVG",
+        "path": "modelos_3d/z_svg_02_esferas_cromo_reflexo_studio.svg"
+      },
+      {
+        "name": "z_svg_03_cubos_isometricos_arquitetura_3d.svg",
+        "ext": "SVG",
+        "path": "modelos_3d/z_svg_03_cubos_isometricos_arquitetura_3d.svg"
       }
     ]
   },
   "alta_performance": {
     "name": "Alta Performance",
     "icon": "✨",
-    "count": 32,
+    "count": 40,
     "images": [
       {
         "name": "09_fotorrealista_iluminacao_cinema.png",
         "ext": "PNG",
         "path": "alta_performance/09_fotorrealista_iluminacao_cinema.png"
+      },
+      {
+        "name": "17_realista_carro_esportivo_aerodinamica_pista.png",
+        "ext": "PNG",
+        "path": "alta_performance/17_realista_carro_esportivo_aerodinamica_pista.png"
+      },
+      {
+        "name": "18_realista_relogio_turbinhao_mecanismo_macro.png",
+        "ext": "PNG",
+        "path": "alta_performance/18_realista_relogio_turbinhao_mecanismo_macro.png"
+      },
+      {
+        "name": "19_realista_fibra_de_carbono_trama_macro.png",
+        "ext": "PNG",
+        "path": "alta_performance/19_realista_fibra_de_carbono_trama_macro.png"
+      },
+      {
+        "name": "20_realista_jato_supersonico_engenharia_voo.png",
+        "ext": "PNG",
+        "path": "alta_performance/20_realista_jato_supersonico_engenharia_voo.png"
+      },
+      {
+        "name": "21_realista_turbina_aeronautica_titanio.png",
+        "ext": "PNG",
+        "path": "alta_performance/21_realista_turbina_aeronautica_titanio.png"
       },
       {
         "name": "arte_abstrata_realista.png",
@@ -3443,6 +5100,21 @@
         "name": "16_mix_hibrido_tecnicas_fusion.png",
         "ext": "PNG",
         "path": "alta_performance/16_mix_hibrido_tecnicas_fusion.png"
+      },
+      {
+        "name": "z_svg_01_aerodinamica_fibra_carbono_fluxo.svg",
+        "ext": "SVG",
+        "path": "alta_performance/z_svg_01_aerodinamica_fibra_carbono_fluxo.svg"
+      },
+      {
+        "name": "z_svg_02_telemetria_velocidade_alta_precisao.svg",
+        "ext": "SVG",
+        "path": "alta_performance/z_svg_02_telemetria_velocidade_alta_precisao.svg"
+      },
+      {
+        "name": "z_svg_03_engrenagens_relojoaria_suica_ouro.svg",
+        "ext": "SVG",
+        "path": "alta_performance/z_svg_03_engrenagens_relojoaria_suica_ouro.svg"
       }
     ]
   }

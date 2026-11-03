@@ -1,7 +1,7 @@
 # Gl Cores Fontes e Fundos - Fundos Visuais, Paletas de Cores & Pares Tipográficos
 
 Aplicação web moderna, responsiva e dinâmica composta pela tríade essencial para criação de interfaces, apresentações e *vibe coding*:
-1. **🖼️ Galeria de Fundos Visuais em Alta Resolução** (674 fundos: JPG, PNG e SVG)
+1. **🖼️ Galeria de Fundos Visuais em Alta Resolução** (1.000 fundos em 17 categorias: JPG, PNG e SVG)
 2. **🎨 Gerador de Paletas de Cores** (52 paletas selecionadas com cópia em 1 clique)
 3. **🔤 Catálogo de Tipografia & Pares do Google Fonts** (40 pares com demonstrações visuais reais de títulos, subtítulos e textos)
 
@@ -26,18 +26,24 @@ Aplicação web moderna, responsiva e dinâmica composta pela tríade essencial 
    - Cópia instantânea dos códigos hexadecimais com 1 clique (com suporte para `navigator.clipboard` e *fallback*).
    - Navegação integrada e fluida com a galeria de fundos.
 
-2. **🖼️ Catálogo Multicategorias de Fundos (674 Fundos em Alta Resolução: 426 PNGs, 189 SVGs e 59 JPGs):**
-   - 🎨 **Abstrato (119 fundos):** 31 imagens realistas de prismas de refração, geodos de ametista, bolhas de sabão, ferrofluidos, veios de mármore dourado, esculturas de vidro soprado, tinta em água, padrões de gelo e resina, além de malhas e 3D.
-   - 💃 **Dança (68 fundos):** 30 fotografias e ilustrações realistas de bailarinas na ponta, casais de tango argentino, b-boys de breakdance, dançarinas de flamenco, salsa latina, dança contemporânea, hip hop, valsa de salão, frevo, capoeira e danças do mundo.
-   - 🎓 **Educação (68 fundos):** 30 imagens realistas de bibliotecas históricas, estudantes universitários no campus, laboratórios de química com frascos coloridos, microscópios, lançamento de chapéus de formatura, observatórios, salas de aula modernas e robótica educacional.
-   - 🎵 **Música (79 fundos):** 30 fotografias realistas de pianos de cauda sob holofote, guitarras elétricas, violinos clássicos envernizados, baterias acústicas, saxofone no jazz, cantores com microfone vintage, mesas de som profissionais de estúdio, orquestras sinfônicas e DJs.
-   - 🌿 **Natureza (68 fundos):** 30 fotografias realistas de leões majestosos na savana, tigres de bengala, lobos cinzentos na neve, águias em voo, baleias jubarte saltando, recifes de corais com peixes tropicais, auroras boreais, cataratas e montanhas alpinas espelhadas.
-   - ⚡ **Tecnologia (68 fundos):** 30 imagens realistas de robôs humanoides, corredores de servidores com LEDs azuis, microprocessadores de silício, braços robóticos industriais, lançamentos de foguetes, drones voando na cidade, realidade virtual e computadores quânticos.
-   - 📸 **Fotografia & Técnicas Visuais (46 fundos):** Interiores modernos, paisagens abertas, bokeh noturno, retratos humanos expressivos (P&B, intimista e ousado), close-ups macro, colódio úmido vintage, olho de peixe, surf na água, pôr do sol e produtos de luxo.
-   - 🖌️ **Estilos Artísticos & Pinturas (58 fundos):** Pinturas a óleo clássicas, aquarelas botânicas e de pássaros, ilustrações infantis, gravuras ukiyo-e japonesas, pop art de Lichtenstein/Warhol, Art Nouveau, mangás, animes, personagens antropomórficos, arte barroca e azulejaria.
-   - 💻 **Digitais & Vetores (39 fundos):** Pixel art 16-bit com cenários urbanos, mascotes de equipes esportivas, papercraft geométrico, stickers kawaii com filhotes, espaços de trabalho com laptops e café, sumi-e oriental com tinta nanquim e vitrais de catedrais.
-   - 🌐 **Modelos 3D & Esculturas (29 fundos):** Quartos isométricos 3D acolhedores, esculturas clássicas em mármore, entalhes em madeira de animais selvagens, cerâmica artesanal em argila, origamis dobrados, robôs gigantes mecha, bonecos de balão e minifiguras LEGO.
-   - ✨ **Alta Performance (32 fundos):** Macro fotorrealista de olho humano, estética retro anos 80 synthwave, fotos de produto de relógios de pulso analógicos e câmeras vintage, graffiti urbano em spray, gravuras risográficas e castelos de realismo fantástico.
+2. **🖼️ Catálogo Multicategorias de Fundos (1.000 Fundos em Alta Resolução em 17 Categorias: 647 PNGs, 294 SVGs e 59 JPGs):**
+   - 🎨 **Abstrato (126 fundos):** Imagens realistas de prismas de refração, cristais de bismuto, opala de fogo, malaquita, geodos de ametista, bolhas de sabão, ferrofluidos, veios de mármore dourado, esculturas de vidro soprado, tinta em água, padrões de gelo e resina, além de malhas e vetores 3D.
+   - 🏛️ **Arquitetura & Interiores (40 fundos):** Fotografias realistas de museus minimalistas e curvas do Guggenheim, fachadas brutalistas de concreto, galerias de arte iluminadas, bibliotecas modernas em madeira, catedrais góticas com vitrais, lofts industriais, pavilhões japoneses, escadarias helicoidais, pontes estaiadas, além de artes de luz e sombra e vetores arquitetônicos.
+   - 🌌 **Espaço & Astronomia (40 fundos):** Fotografias astronômicas reais da Nebulosa de Órion, Pilares da Criação, Nebulosa Cabeça de Cavalo, Galáxias de Andrômeda e Sombrero, Via Láctea no deserto, anéis de Saturno, crateras da Lua, Estação Espacial Internacional, eclipses solares, Marte e lançamentos de foguetes, além de artes cósmicas e mapas celestes vetoriais.
+   - ☕ **Gastronomia & Cafeteria (40 fundos):** Fotografias realistas de café expresso com latte art, grãos torrados, cappuccinos, pães artesanais de fermentação natural, especiarias coloridas, chocolate amargo gourmet, taças de vinho em adega, cerimônia do chá matcha, frutas vermelhas, massas artesanais, mel no favo, croissants, macarons e tábuas de queijos, além de texturas quentes e vetores gastronômicos.
+   - 🏆 **Esportes & Movimento (40 fundos):** Fotografias realistas de atletismo em pista, natação olímpica, surf em ondas tubulares, ciclismo de montanha, estádios iluminados, basquete urbano ao pôr do sol, escalada em rocha, ginástica artística, esqui alpino, vela oceânica, artes marciais, tênis no saibro, skate, remo, yoga, paraquedismo e caiaque, além de artes cinéticas e vetores esportivos.
+   - 🧬 **Ciência & Biotecnologia (40 fundos):** Imagens realistas de dupla hélice de DNA, microscopia de células fluorescentes, neurônios e sinapses, laboratórios de biotecnologia, cristais sob luz polarizada, placas de Petri, estruturas moleculares, pipetas de precisão, glóbulos vermelhos, aceleradores de partículas e óptica a laser, além de artes bioluminescentes e redes moleculares SVG.
+   - 🎬 **Cinema & Audiovisual (40 fundos):** Fotografias realistas de câmeras de cinema no set, claquetes de filmagem, salas de cinema clássicas e teatros de ópera, lentes anamórficas, projetores 35mm, rolos de película, palcos com cortinas de veludo, iluminação de estúdio, cadeira de diretor, ilhas de edição/color grading, estética film noir e microfones de gravação, além de flares anamórficos e vetores widescreen.
+   - 💃 **Dança (75 fundos):** Fotografias e ilustrações realistas de bailarinas na ponta, Lago dos Cisnes, Bharatanatyam indiano, acrobacia aérea em tecido, casais de tango argentino, b-boys de breakdance, dançarinas de flamenco, salsa latina, dança contemporânea, hip hop, valsa de salão, frevo, capoeira e danças do mundo.
+   - 🎓 **Educação (75 fundos):** Imagens realistas de bibliotecas históricas, anfiteatros universitários, globos terrestres antigos, planetários, oficinas maker, estudantes no campus, laboratórios de química, microscópios, formaturas, observatórios, salas de aula modernas e robótica educacional.
+   - 🎵 **Música (85 fundos):** Fotografias realistas de pianos de cauda sob holofote, violoncelos, harpas sinfônicas, sintetizadores modulares, guitarras elétricas, violinos clássicos, baterias acústicas, saxofone no jazz, cantores com microfone vintage, mesas de som de estúdio, orquestras e DJs.
+   - 🌿 **Natureza (75 fundos):** Fotografias realistas de florestas de bambu em Kyoto, cânions de arenito, lagos glaciais turquesa, cavernas de gelo azul, leões na savana, tigres de bengala, lobos na neve, águias em voo, baleias jubarte, recifes de corais, auroras boreais e montanhas alpinas.
+   - ⚡ **Tecnologia (75 fundos):** Imagens realistas de robôs humanoides, feixes de fibra óptica, supercomputadores HPC, usinas solares, braços robóticos industriais, corredores de servidores, microprocessadores de silício, lançamentos espaciais, drones, realidade virtual e computadores quânticos.
+   - 📸 **Fotografia & Técnicas Visuais (55 fundos):** Longa exposição de trilhas de estrelas, hora azul urbana, reflexos em poças d'água, contraluz e neblina matinal, interiores modernos, paisagens abertas, bokeh noturno, retratos P&B e dramáticos, macro, colódio úmido vintage, olho de peixe e produtos de luxo.
+   - 🖌️ **Estilos Artísticos & Pinturas (66 fundos):** Mosaicos bizantinos dourados, afrescos renascentistas, xilogravuras, caligrafia em nanquim, azulejaria portuguesa, pinturas a óleo, aquarelas botânicas, gravuras ukiyo-e, pop art, Art Nouveau, mangás, animes e arte barroca.
+   - 💻 **Digitais & Vetores (48 fundos):** Instalações de LED imersivas, projeção mapeada, arte generativa fractal, esculturas neon, pixel art 16-bit, mascotes esportivos, papercraft geométrico, stickers kawaii, espaços de trabalho, sumi-e oriental, vitrais e vetores synthwave/glassmorphism.
+   - 🌐 **Modelos 3D & Esculturas (40 fundos):** Impressão 3D em resina, maquetes arquitetônicas, esculturas em bronze, esculturas cinéticas, dioramas em miniatura, cerâmica raku, cristais lapidados, kirigami, quartos isométricos 3D, esculturas em mármore, entalhes em madeira, origamis, mechas e LEGO.
+   - ✨ **Alta Performance (40 fundos):** Superesportivos aerodinâmicos, mecanismos de relógios turbilhão, trama de fibra de carbono, jatos supersônicos, turbinas de titânio, macro de olho humano, estética retro anos 80 synthwave, câmeras vintage, graffiti urbano, risografia e realismo fantástico.
 
 2. **⭐ Ordenação Otimizada (Realistas e Fotos Primeiro, Vetores por Último):**
    - Em todas as pastas físicas e na navegação da galeria, todas as imagens realistas e de alta qualidade (PNG e JPG) aparecem **no topo antes de qualquer vetor SVG** (`z_svg_`), proporcionando impacto visual imediato com fotos de pessoas, animais, objetos e materiais reais.
@@ -75,7 +81,13 @@ fundos/
 ├── fontes.html        # Catálogo de 40 Pares Tipográficos Google Fonts (TailwindCSS, JS)
 ├── catalog.json       # Manifesto de assets e metadados
 ├── README.md          # Documentação do projeto
-├── abstrato/          # Fundos abstratos, 3D, mesh gradients e geométricos
+├── abstrato/          # Fundos abstratos, cristais, 3D, mesh gradients e geométricos
+├── arquitetura/       # Arquitetura minimalista, brutalista, museus, vitrais e interiores
+├── espaco/            # Nebulosas, galáxias, planetas, missões espaciais e mapas celestes
+├── gastronomia/       # Café especial, latte art, panificação, especiarias e alta gastronomia
+├── esportes/          # Atletismo, esportes aquáticos, ciclismo, estádios e movimento
+├── ciencia/           # Biotecnologia, genética, microscopia celular, física e química
+├── cinema/            # Sets de filmagem, lentes anamórficas, teatro, projetores e noir
 ├── danca/             # Palcos, estúdios e movimentos de dança
 ├── educacao/          # Ambientes de estudo, lousas e design instrucional
 ├── musica/            # Estúdios musicais, instrumentos e ondas sonoras
